@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Northern Forge · Cognis Mesh Command Center</title>
+<style>
+:root{--bg:#070b14;--card:#121a2e;--line:#24314d;--tx:#e8f1ff;--mut:#8aa0c0;--cyan:#5ef0c0;--blue:#5eb8ff;--amber:#ffc857;--rose:#ff6b8a;--meg:#b794ff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+.wrap{max-width:1400px;margin:0 auto;padding:1rem}header{border:1px solid var(--line);border-radius:14px;padding:1rem;margin-bottom:1rem;background:#0d1424}
+h1{margin:0;font-size:1.2rem}.sub{color:var(--mut);font-size:.85rem;margin-top:.25rem}
+.grid{display:grid;gap:.75rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.9rem}
+h2{margin:0 0 .5rem;font-size:.8rem;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}
+.kpi{font-size:1.5rem;font-weight:700;color:var(--cyan)}.muted{color:var(--mut);font-size:.85rem}.dim{color:#5c7294;font-size:.75rem;font-family:ui-monospace,monospace}
+.node{border-left:3px solid var(--line);padding:.5rem;margin:.4rem 0;background:#182238;border-radius:8px}
+.node.TI{border-color:var(--blue)}.node.JUSTIN{border-color:var(--cyan)}.node.MEG{border-color:var(--meg)}
+.tag{font-size:.68rem;border:1px solid var(--line);padding:.1rem .35rem;border-radius:6px;color:var(--mut);margin-right:.25rem}
+.event{border-bottom:1px solid #1a2438;padding:.35rem 0;font-size:.82rem}.sec{background:#182238;border-radius:8px;padding:.5rem;margin:.35rem 0;font-size:.82rem;white-space:pre-wrap}
+a{color:var(--cyan)}
+</style></head><body><div class="wrap">
+<header><h1>Northern Forge × Cognis Mesh Symphony</h1>
+<div class="sub">Unified tracker · mesh · gbrain · memory · ADP · revenue</div>
+<div class="dim" id="gen">loading…</div></header>
+<div class="grid" id="kpis"></div>
+<div class="grid" style="margin-top:.75rem">
+<div class="card"><h2>Mesh nodes</h2><div id="nodes"></div></div>
+<div class="card"><h2>Alerts</h2><div id="alerts"></div></div>
+<div class="card"><h2>Event stream</h2><div id="events" style="max-height:360px;overflow:auto"></div></div>
+<div class="card"><h2>Products · revenue</h2><div id="prod"></div></div>
+<div class="card"><h2>Memory · gbrain</h2><div id="mem" style="max-height:320px;overflow:auto"></div></div>
+<div class="card"><h2>Infra · models</h2><div id="infra"></div></div>
+</div>
+<footer class="dim" style="margin-top:1rem;text-align:center">Static snapshot — live auto-refresh on agent host :8787 · regenerate via mesh_context.py / command_center.py</footer>
+</div>
+<script>
+async function main(){
+  let s;
+  try{ const r=await fetch('snapshot.json'); s=await r.json(); }
+  catch(e){ document.getElementById('gen').textContent='Failed to load snapshot.json — open live dashboard on :8787'; return; }
+  const h=s.headline||{};
+  document.getElementById('gen').textContent='updated '+ (s.generated_at||'');
+  document.getElementById('kpis').innerHTML=[
+    ['Mesh', `${h.mesh_online||0}/${h.mesh_total||0}`],
+    ['Live products', h.products_live||0],
+    ['Revenue', '$'+(h.revenue_gross_usd||0)],
+    ['Marketing Q', h.marketing_queue||0],
+    ['Stigmergy', h.stigmergy_signals||0],
+    ['Watchdog', h.watchdog_runs||'—'],
+  ].map(([a,b])=>`<div class="card"><div class="dim">${a}</div><div class="kpi">${b}</div></div>`).join('');
+  const nodes=(s.mesh||{}).nodes||{};
+  document.getElementById('nodes').innerHTML=Object.keys(nodes).map(n=>{
+    const x=nodes[n]||{};
+    return `<div class="node ${n}"><strong>${n}</strong> <span class="tag">${x.status||''}</span><span class="tag">${x.state||''}</span>
+      <div class="muted">${(x.current_action||'').slice(0,140)}</div>
+      <div class="dim">${x.model||''} · ${x.progress||0}%</div>
+      ${x.last_error?`<div class="dim" style="color:var(--rose)">${String(x.last_error).slice(0,120)}</div>`:''}
+    </div>`;
+  }).join('')||'<div class="muted">no nodes</div>';
+  document.getElementById('alerts').innerHTML=(s.alerts||[]).map(a=>`<div class="sec"><strong>${a.source}</strong> · ${a.message}</div>`).join('')||'<div class="muted">none</div>';
+  document.getElementById('events').innerHTML=(s.events||[]).slice(0,40).map(e=>`<div class="event"><strong>${e.agent||e.source}</strong> ${String(e.summary||'').slice(0,180)}<div class="dim">${e.kind||''}</div></div>`).join('');
+  const adp=s.adp||{}, rev=(adp.revenue||{}).latest||{}, cat=(adp.revenue||{}).catalog||{};
+  let phtml=`<div class="kpi">$${rev.gross_succeeded_usd||0}</div><div class="muted">Stripe gross</div>`;
+  (adp.products||[]).slice(0,10).forEach(p=>{
+    phtml+=`<div class="sec"><strong>${p.title||p.id}</strong> <span class="tag">${p.status||''}</span>${p.url?`<br/><a href="${p.url}" target=_blank>${p.url}</a>`:''}</div>`;
+  });
+  Object.values(cat).forEach(c=>{ if(c.payment_link) phtml+=`<div class="dim"><a href="${c.payment_link}" target=_blank>${c.name||'link'}</a></div>`; });
+  document.getElementById('prod').innerHTML=phtml;
+  const mem=s.memories||{};
+  let mhtml=(mem.gbrain_index||[]).map(n=>`<span class="tag">${n}</span>`).join(' ');
+  (mem.memory_sections||[]).forEach(x=>mhtml+=`<div class="sec">${String(x).slice(0,300)}</div>`);
+  (mem.gbrain_notes||[]).forEach(n=>mhtml+=`<div class="sec"><strong>${n.name}</strong><br/>${String(n.content||'').slice(0,250)}</div>`);
+  document.getElementById('mem').innerHTML=mhtml||'<div class="muted">no memory</div>';
+  const models=s.models||{}, infra=s.infra||{};
+  document.getElementById('infra').innerHTML=`<div class="muted">Local LLM: ${models.local?'yes':'no'}</div>
+    <div>${(models.providers||[]).map(p=>`<span class="tag">${p.name}:${p.configured?'on':'off'}</span>`).join(' ')}</div>
+    <div class="dim" style="margin-top:.5rem">watchdog runs ${infra.watchdog_runs||'—'}</div>
+    <div class="dim">channels: ${Object.keys(infra.channels||{}).join(', ')||'—'}</div>`;
+}
+main();
+</script></body></html>
