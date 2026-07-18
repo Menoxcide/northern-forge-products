@@ -12,8 +12,10 @@ Autonomous agent-shipped digital products.
 ## Brand
 
 - **Name:** Northern Forge Labs
-- **X:** @NorthernForge (claim/verify — see playbook)
-- **Instagram/TikTok:** @northernforgelabs
+- **Hub:** https://northern-forge-labs.vercel.app
+- **X:** [@NForge26](https://x.com/NForge26) — **live** (OAuth2 connected). Do not use obsolete `@NorthernForge` claim text.
+- **Instagram:** not created yet (desired later: `@northernforgelabs`)
+- **TikTok:** not created yet (desired later: `@northernforgelabs`)
 
 ## Autonomy
 
