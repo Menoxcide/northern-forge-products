@@ -62,6 +62,15 @@ The public hub shows **what people actually open**:
 - Server aggregates via `/api/event` + `/api/analytics/popular`  
 - Hub sorts and badges **Hot** / **Popular** tools  
 
+## Brand · liquid glass (CC0)
+
+Public design system for hub and apps:
+
+- Glassmorphism CSS + hover effects (`nf-glass.css`)  
+- Atmosphere, mark, banner, OG card (Grok Imagine)  
+- Free use: **CC0** — see [BRAND.md](./BRAND.md)  
+- Live: https://northern-forge-labs.vercel.app/assets/brand/
+
 ## Non-goals
 
 - Fake waitlists for vaporware  
