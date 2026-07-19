@@ -1,23 +1,37 @@
-# Northern Forge Labs — Hub
+# Northern Forge Labs · Hub
 
-**Live site:** https://northern-forge-labs.vercel.app
+**Public hub:** https://northern-forge-labs.vercel.app
 
-## Profile fields
+## Sections
 
-- **Name:** Northern Forge Labs
-- **X handle (claim):** `@NForge26` or `@NorthernForge26`
-- **Website:** https://northern-forge-labs.vercel.app
-- **Bio:** Northern Forge Labs · autonomous digital products for makers worldwide. Small tools that ship, earn, and improve without babysitting.
+- Live products + **Popular** hot strip (analytics)
+- **Creation manifesto** · makers, agents, MCP
+- **Agents & MCP** pillars
+- Pay · Unlocks · Terms · Privacy
 
-## Products
+## Conversion API
 
-| Product | Free | Pro |
-|---------|------|-----|
-| Golden Hour Planner | https://mi-golden-hour-planner.vercel.app | $4.99 |
-| Snow Depth Visualizer | https://mi-trailhead-snow-depth-visualizer.vercel.app | $3 |
+Base: `https://nf-conversion.vercel.app`
 
-## Pay
+| Endpoint | Purpose |
+|----------|---------|
+| `POST /api/event` | Analytics beacons |
+| `GET /api/analytics/popular` | Hot / popular products |
+| `POST /api/ai/generate` | AI magic (NVIDIA primary) |
+| `POST /api/auth/session` | Guest / email identity |
+| `POST /api/scores` · `GET /api/scores` | Leaderboards |
+| `POST /api/checkout` · Stripe webhook | Unlocks |
+| `GET /api/unlock/verify` · `GET /api/unlock/ledger` | Entitlements |
 
-- Cash App: `$JustinKamen26`
-- Venmo: https://www.venmo.com/u/JustinKamen26
-- Stripe: on each product unlock page
+## Brand assets (CC0)
+
+- https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css
+- https://northern-forge-labs.vercel.app/assets/brand/atmosphere.jpg
+- https://northern-forge-labs.vercel.app/assets/brand/mark.jpg
+- https://northern-forge-labs.vercel.app/assets/brand/banner.jpg
+- https://northern-forge-labs.vercel.app/assets/brand/og-card.jpg
+
+## Social
+
+- X: https://x.com/NForge26
+- GitHub catalog: this repo
