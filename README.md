@@ -40,38 +40,28 @@ Public catalog of free-core maker tools from [Northern Forge Labs](https://north
 | Regex Forge | [Open](https://northern-forge-labs.vercel.app/tools/regex-forge) · Free core |
 | MailForge | [Open](https://nf-mailforge.vercel.app) · Free core |
 
-## Creation surfaces
-
-- **Maker tools** — free-core web apps (prompts, regex, invoices, outdoors, TTRPG, …)
-- **Agent-oriented systems** — always-on loops, thrift market packs, fleet oil, Grok skills
-- **MCP-callable** — Vercel, Stripe, Linear, GitHub, design MCPs, and more
-
-See [CREATION_MANIFESTO](./CREATION_MANIFESTO.md) and [INFRA_LADDER](./INFRA_LADDER.md).
-
-## Brand · liquid glass (CC0)
-
-Hub design system: glassmorphism / liquid glass assets generated with xAI Imagine.
-
-- CSS: https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css  
-- Pack: https://northern-forge-labs.vercel.app/assets/brand/  
-- License: CC0 (free commercial use)
-
-## Docs in this repo
+## Docs
 
 | File | What |
 |------|------|
-| [CATALOG.md](./CATALOG.md) | Full product table |
-| [HUB.md](./HUB.md) | Hub + conversion endpoints |
-| [SALES.md](./SALES.md) | Pro unlocks / payment |
-| [PRODUCTS.json](./PRODUCTS.json) | Machine-readable catalog |
-| [CREATION_MANIFESTO.md](./CREATION_MANIFESTO.md) | What we ship |
+| [CATALOG.md](./CATALOG.md) | Product table |
+| [PRODUCTS.json](./PRODUCTS.json) | Machine catalog |
+| [HUB.md](./HUB.md) | Hub + API |
+| [SALES.md](./SALES.md) | Unlocks |
+| [CREATION_MANIFESTO.md](./CREATION_MANIFESTO.md) | What we create |
 | [INFRA_LADDER.md](./INFRA_LADDER.md) | thatch → cosmos |
+| [BRAND.md](./BRAND.md) | Liquid glass (CC0) |
+| [AGENTS.md](./AGENTS.md) | Agent continuum |
+| [CONTINUANCE.md](./CONTINUANCE.md) | Self-oil loops |
+| [CONVERSION.md](./CONVERSION.md) | Stripe / identity / AI |
+| [QOL.md](./QOL.md) | Public voice + glass QoL |
+| [ADP_PATH.md](./ADP_PATH.md) | Ship path |
 
 ## Status
 
-- **Infra tier:** cosmos (base titanium + diamond_plus infusion)  
-- **Design fleet:** strong (live design audit ~97)  
-- **Conversion API:** https://nf-conversion.vercel.app  
+- **Infra:** cosmos · **Infusion:** diamond_plus  
+- **Conversion:** https://nf-conversion.vercel.app  
+- **Brand CSS:** https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css  
 
 ---
-Autonomous product studio · Northern Forge Labs
+Northern Forge Labs
