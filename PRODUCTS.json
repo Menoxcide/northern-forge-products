@@ -1,0 +1,207 @@
+{
+  "updated_at": "2026-07-19T03:21:46.671267+00:00",
+  "hub": "https://northern-forge-labs.vercel.app",
+  "count": 25,
+  "products": [
+    {
+      "id": "mi-golden-hour",
+      "title": "MI Golden Hour Planner",
+      "url": "https://mi-golden-hour-planner.vercel.app",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Sunrise, sunset, golden-hour windows.",
+      "status": "live"
+    },
+    {
+      "id": "mi-trailhead-snow-depth-visualizer",
+      "title": "Trailhead Snow Depth Visualizer",
+      "url": "https://mi-trailhead-snow-depth-visualizer.vercel.app",
+      "monetization": "Free view + $3 PDF unlock",
+      "blurb": "Quick trailhead snow-depth status.",
+      "status": "live"
+    },
+    {
+      "id": "hearth-harbor-streaks",
+      "title": "Hearth Harbor Streaks",
+      "url": "https://northern-forge-labs.vercel.app/tools/streaks",
+      "monetization": "Free core",
+      "blurb": "Daily habit streaks with printable weekly review.",
+      "status": "live"
+    },
+    {
+      "id": "json-ts-interface-forge",
+      "title": "JSON → TS Interface Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/json-ts",
+      "monetization": "Free forever core",
+      "blurb": "Paste JSON, get TypeScript interfaces.",
+      "status": "live"
+    },
+    {
+      "id": "gear-pack-weight",
+      "title": "Gear Pack Weight Builder",
+      "url": "https://northern-forge-labs.vercel.app/tools/gear-pack",
+      "monetization": "Free core",
+      "blurb": "Pack list with total grams / pounds.",
+      "status": "live"
+    },
+    {
+      "id": "micro-waitlist-countdown",
+      "title": "Micro Waitlist + Countdown",
+      "url": "https://northern-forge-labs.vercel.app/tools/waitlist",
+      "monetization": "Free core",
+      "blurb": "24h demo countdown + local waitlist. Hits LIVE — no week-long nonsense.",
+      "status": "live"
+    },
+    {
+      "id": "prompt-context-forge",
+      "title": "Prompt Context Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/prompt-forge",
+      "monetization": "Free core",
+      "blurb": "Paste notes once → Claude + GPT prompts. Magic buttons AI-fill goals, expand notes, forge polished prompts.",
+      "status": "live"
+    },
+    {
+      "id": "apptrack-board",
+      "title": "AppTrack Board",
+      "url": "https://northern-forge-labs.vercel.app/tools/apptrack",
+      "monetization": "Free core",
+      "blurb": "Paste job statuses → stage board + CSV. Local-only.",
+      "status": "live"
+    },
+    {
+      "id": "x-copy-forge",
+      "title": "Copy Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/x-copy-forge",
+      "monetization": "Free core",
+      "blurb": "Generate social posts for any product — launches, pins, threads. You provide the link and blurb.",
+      "status": "live"
+    },
+    {
+      "id": "aetherglyph-loom",
+      "title": "Aetherglyph Loom",
+      "url": "https://aetherglyph-loom.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Glyph / name spark generator for game sessions.",
+      "status": "live"
+    },
+    {
+      "id": "dusk-veil-composer",
+      "title": "Dusk Veil Composer",
+      "url": "https://dusk-veil-composer.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Compose golden-hour mood boards and copy for shoots.",
+      "status": "live"
+    },
+    {
+      "id": "porcupine-bluff-kit-ledger",
+      "title": "Porcupine Bluff Kit Ledger",
+      "url": "https://porcupine-bluff-kit-ledger.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Trail kit inventory ledger for Northern Michigan packs.",
+      "status": "live"
+    },
+    {
+      "id": "dialectic-fork-matrix",
+      "title": "Dialectic Fork Matrix",
+      "url": "https://dialectic-fork-matrix.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Map arguments into thesis/antithesis forks.",
+      "status": "live"
+    },
+    {
+      "id": "cedar-ledger",
+      "title": "Cedar Ledger",
+      "url": "https://cedar-ledger.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Lightweight personal ledger for cash/venmo notes.",
+      "status": "live"
+    },
+    {
+      "id": "maple-ridge-route-weaver",
+      "title": "Maple Ridge Route Weaver",
+      "url": "https://maple-ridge-route-weaver.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Route weaving helper for ridge hikes.",
+      "status": "live"
+    },
+    {
+      "id": "up-stand-wind-rose",
+      "title": "UP Stand Wind Rose",
+      "url": "https://up-stand-wind-rose.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Upper Peninsula wind rose for outdoor planning.",
+      "status": "live"
+    },
+    {
+      "id": "voidweave-dice-oracle",
+      "title": "Voidweave Dice Oracle",
+      "url": "https://voidweave-dice-oracle.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Tabletop dice oracle with shareable rolls.",
+      "status": "live"
+    },
+    {
+      "id": "voidwhisper-sigil-loom",
+      "title": "Voidwhisper Sigil Loom",
+      "url": "https://voidwhisper-sigil-loom.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Sigil loom for TTRPG sessions.",
+      "status": "live"
+    },
+    {
+      "id": "strutmesh-status-ledger",
+      "title": "StrutMesh Status Ledger",
+      "url": "https://strutmesh-status-ledger.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Mesh node status ledger for home lab builders.",
+      "status": "live"
+    },
+    {
+      "id": "forgebill",
+      "title": "ForgeBill",
+      "url": "https://northern-forge-labs.vercel.app/tools/forgebill",
+      "monetization": "Free core",
+      "blurb": "Invoice & estimate one-pager for freelancers. Print/PDF, local-only.",
+      "status": "live"
+    },
+    {
+      "id": "contrast-forge",
+      "title": "Contrast Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/contrast-forge",
+      "monetization": "Free core",
+      "blurb": "WCAG contrast checker for accessible palettes.",
+      "status": "live"
+    },
+    {
+      "id": "keweenaw-kit-chart",
+      "title": "Keweenaw Kit Chart",
+      "url": "https://keweenaw-kit-chart.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Trail kit chart for Keweenaw / UP packs.",
+      "status": "live"
+    },
+    {
+      "id": "missionvault-queue",
+      "title": "MissionVault Queue",
+      "url": "https://missionvault-queue.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Mission queue board for builders shipping daily.",
+      "status": "live"
+    },
+    {
+      "id": "regex-forge",
+      "title": "Regex Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/regex-forge",
+      "monetization": "Free core",
+      "blurb": "Regex tester with flags, highlights, and shareable URL hash.",
+      "status": "live"
+    },
+    {
+      "id": "mailforge",
+      "title": "MailForge",
+      "url": "https://nf-mailforge.vercel.app",
+      "monetization": "Free core",
+      "blurb": "Markdown → clean email HTML. Local-only.",
+      "status": "live"
+    }
+  ]
+}
