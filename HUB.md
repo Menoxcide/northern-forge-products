@@ -2,6 +2,13 @@
 
 **Public hub:** https://northern-forge-labs.vercel.app
 
+## Look
+
+Liquid glass fleet chrome (diamond QoL):
+
+- https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css
+- Atmosphere + mark + banner under `/assets/brand/`
+
 ## Sections
 
 - Live products + **Popular** hot strip (analytics)
@@ -34,4 +41,8 @@ Base: `https://nf-conversion.vercel.app`
 ## Social
 
 - X: https://x.com/NForge26
-- GitHub catalog: this repo
+- GitHub catalog: this repo (103 live products)
+
+## Fleet
+
+See [PRODUCTS.json](./PRODUCTS.json) · [CATALOG.md](./CATALOG.md)
