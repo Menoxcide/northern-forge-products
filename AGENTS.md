@@ -18,7 +18,7 @@ Product UIs are for **end users**. Internal thrift/ops language stays out of pub
 | Articles | `x_articles.py` | Niche long-form X exposure (wired into thrift tick) |
 | Cosmos | `cosmos_loop.py` · `cosmos_store.py` · `cosmos_upgrade.py` | Closed-loop pulse + durable popular/events |
 | Deploy budget | `deploy_quota.py` | Hobby 100/day awareness; drain skips when empty |
-| Conversion | `artifacts/nf-conversion` | Stripe, identity, scores, popular, AI generate |
+| Conversion | `artifacts/nf-conversion` | Stripe, identity, scores, popular, AI generate · **rate-limited + CORS hardened** (`SECURITY.md`) |
 | Brand | `assets/brand/nf-glass.css` + Imagine pack | Liquid glass / glassmorphism (CC0) |
 | Analytics | `/api/event` + hub `nf-hub-analytics.js` | Opens → popular strip |
 
@@ -75,7 +75,7 @@ OK: brand name, hub links, free/pro pricing, steps/help.
 
 ## Catalog (GitHub)
 
-https://github.com/Menoxcide/northern-forge-products — 25 live products, manifesto, ladder, `PRODUCTS.json`
+https://github.com/Menoxcide/northern-forge-products — live fleet catalog + manifesto + ladder · `PRODUCTS.json` (sync: `python3 github_deploy.py sync`)
 
 ## Identity
 
