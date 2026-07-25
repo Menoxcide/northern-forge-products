@@ -25,7 +25,18 @@ We build **useful surfaces** for three audiences at once:
 - **Command center / metrics** — health, infra tier, design scores  
 
 ### MCP servers (first-class creation surface)
-We treat MCP servers as products agents use, not side notes:
+
+**We ship our own MCP products** — not only consume third-party MCP.
+
+| First-party product | URL |
+|---------------------|-----|
+| **Northern Forge MCP** (flagship) | https://nf-mcp.vercel.app — `/mcp` JSON-RPC · `/tools` REST |
+
+Free core tools today: `list_live_products`, `get_product`, `popular_tools`, `post_event`, `get_payment_link`, `forge_status`, `golden_hour_windows`, `pack_weight_sum`, `prompt_variants`.
+
+Ship path invents kinds with weights (~45% `mcp_server`, ~15% `agent_skill`, ~40% `web_tool`) via `mcp_scaffold.py` + `autonomous_digital_product_agent.py`. Override with `NF_PRODUCT_KIND=mcp`.
+
+Third-party MCP we *use* to operate the forge (not the product line):
 
 | MCP / integration | Use in the forge |
 |-------------------|------------------|
@@ -40,6 +51,16 @@ We treat MCP servers as products agents use, not side notes:
 | **Grok/xAI tools** | Reasoning, Imagine brand, tasks |
 
 New agent tools should expose **clear tool schemas**, **idempotent actions**, and **public vs ops boundaries**.
+
+### Observe the loop
+
+```bash
+python3 scripts/loop_status.py          # dense one-screen status
+python3 scripts/loop_status.py --watch  # live refresh
+bash scripts/loop_watch.sh -f           # status + always_on log
+```
+
+Full guide: [OBSERVE.md](./OBSERVE.md).
 
 ## Exposure: X articles (niche, in-depth)
 
