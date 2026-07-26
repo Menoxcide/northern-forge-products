@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T06:15:49.621Z",
+  "updated_at": "2026-07-26T06:20:48.916Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -26,6 +26,13 @@
       "total": 1,
       "keys": [
         "7925a079"
+      ]
+    },
+    "lumen-veil": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "b51cc86"
       ]
     }
   }
