@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T12:25:11.310Z",
+  "updated_at": "2026-07-26T12:33:54.124Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -53,10 +53,11 @@
       ]
     },
     "kettlebill": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7925a079"
+        "7925a079",
+        "b51cc86"
       ]
     },
     "aetherglyph-ledger": {
