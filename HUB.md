@@ -41,7 +41,7 @@ Base: `https://nf-conversion.vercel.app`
 ## Social
 
 - X: https://x.com/NForge26
-- GitHub catalog: this repo (103 live products)
+- GitHub catalog: this repo (51 live products)
 
 ## Fleet
 
