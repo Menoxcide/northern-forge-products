@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T08:02:17.441Z",
+  "updated_at": "2026-07-26T08:11:52.391Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -68,10 +68,11 @@
       ]
     },
     "liminal-seed-lattice": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "b51cc86"
+        "b51cc86",
+        "7925a079"
       ]
     },
     "veilweave-terminal": {
