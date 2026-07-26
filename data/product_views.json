@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T21:04:03.671Z",
+  "updated_at": "2026-07-26T21:04:25.282Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -202,10 +202,11 @@
       ]
     },
     "agents-docs": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "ba199884"
+        "ba199884",
+        "a5ffe1ae"
       ]
     }
   }
