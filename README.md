@@ -23,7 +23,7 @@ Fleet chrome is **liquid glass** (glassmorphism) from the diamond QoL pass:
 
 Design health (latest audit): average **85.8** · grades A:76, B:6, D:19, F:7
 
-## Live products (103 live · 110 catalogued)
+## Live products (51 live · 110 catalogued)
 
 | Tool | Link |
 |------|------|
@@ -52,7 +52,7 @@ Design health (latest audit): average **85.8** · grades A:76, B:6, D:19, F:7
 | JWT Claim Lens | [Open](https://northern-forge-labs.vercel.app/tools/jwt-claim-lens) · Free core + $3.99 pro |
 | Cron Humanizer | [Open](https://northern-forge-labs.vercel.app/tools/cron-humanizer) · Free core + $3.99 pro |
 
-…plus **79** more live tools in [CATALOG.md](./CATALOG.md) / [PRODUCTS.json](./PRODUCTS.json).
+…plus **27** more live tools in [CATALOG.md](./CATALOG.md) / [PRODUCTS.json](./PRODUCTS.json).
 
 Full table: [CATALOG.md](./CATALOG.md) · Machine: [PRODUCTS.json](./PRODUCTS.json)
 
