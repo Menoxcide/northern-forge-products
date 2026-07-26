@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T06:39:31.008Z",
+  "updated_at": "2026-07-26T06:44:13.691Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -48,6 +48,13 @@
       "total": 1,
       "keys": [
         "b51cc86"
+      ]
+    },
+    "kettlebill": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "7925a079"
       ]
     }
   }
