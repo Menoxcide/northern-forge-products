@@ -1,0 +1,6 @@
+{
+  "updated_at": "2026-07-26T03:24:55.559521+00:00",
+  "metric": "unique_views",
+  "products": {},
+  "note": "nf-conversion durable unique views; keys are visitor hashes per product"
+}
