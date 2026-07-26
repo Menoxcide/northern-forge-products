@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T05:16:57.449Z",
+  "updated_at": "2026-07-26T05:17:08.857Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -13,10 +13,11 @@
       ]
     },
     "quillforge-onesheet": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7f85a7d3"
+        "7f85a7d3",
+        "da21cc90"
       ]
     }
   }
