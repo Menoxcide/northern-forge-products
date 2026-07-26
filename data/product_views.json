@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T21:28:27.737Z",
+  "updated_at": "2026-07-26T22:07:52.370Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -107,10 +107,11 @@
       ]
     },
     "leadknot-timer": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "b51cc86"
+        "b51cc86",
+        "2b57ead5"
       ]
     },
     "slab-invoice-mesh": {
