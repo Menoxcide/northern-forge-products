@@ -14,6 +14,7 @@ Product UIs are for **end users**. Internal thrift/ops language stays out of pub
 | QoL | `diamond_qol.py` | Public chrome, word-safe copy, benefits, hub bar, **liquid glass inject** |
 | Design | `design_audit.py` | Live score + persona/visual diversity |
 | Ship | `autonomous_digital_product_agent.py` | design → QoL → deploy → thrift |
+| Agent surfaces | `agent_surface_template.py` · `AGENT_SURFACE.md` | MCP/skill landings (not empty web tools) |
 | Market | `thrift_market.py` | Paste packs always; ≤1 X API/day |
 | Articles | `x_articles.py` | Niche long-form X exposure (wired into thrift tick) |
 | Cosmos | `cosmos_loop.py` · `cosmos_store.py` · `cosmos_upgrade.py` | Closed-loop pulse + durable popular/events |
@@ -72,6 +73,12 @@ OK: brand name, hub links, free/pro pricing, steps/help.
 - CSS: `nf-glass.css` · JS: `js/nf-glass.js`  
 - Auto-injected by `diamond_qol._inject_glass` on fleet QoL  
 - License: **CC0** (Grok Imagine pack)
+
+
+## Polish · uniqueness · agent surfaces
+
+- Uniqueness map: `UNIQUENESS.md` · `data/uniqueness_map.json` · freeze invoice clones
+- Hot polish: `python3 polish_hot_tools.py` (top-10 job lines + empty states)
 
 ## Catalog (GitHub)
 
