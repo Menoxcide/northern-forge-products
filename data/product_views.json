@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T08:30:42.434Z",
+  "updated_at": "2026-07-26T08:40:31.918Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -83,12 +83,13 @@
       ]
     },
     "slabforge-ledger": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "da21cc90",
         "7f85a7d3",
-        "b51cc86"
+        "b51cc86",
+        "7925a079"
       ]
     },
     "rivetmesh-health-grid": {
