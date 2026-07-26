@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T09:16:07.134Z",
+  "updated_at": "2026-07-26T09:32:38.154Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -107,11 +107,12 @@
       ]
     },
     "slab-invoice-mesh": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "7f85a7d3",
-        "da21cc90"
+        "da21cc90",
+        "7925a079"
       ]
     }
   }
