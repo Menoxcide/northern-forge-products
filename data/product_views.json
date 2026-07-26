@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T06:44:14.365Z",
+  "updated_at": "2026-07-26T07:19:51.639Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -55,6 +55,13 @@
       "total": 1,
       "keys": [
         "7925a079"
+      ]
+    },
+    "aetherglyph-ledger": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "b51cc86"
       ]
     }
   }
