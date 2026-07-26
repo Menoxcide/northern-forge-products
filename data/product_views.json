@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T09:32:38.154Z",
+  "updated_at": "2026-07-26T09:42:33.492Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -113,6 +113,13 @@
         "7f85a7d3",
         "da21cc90",
         "7925a079"
+      ]
+    },
+    "ledger-snap": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "79724c8b"
       ]
     }
   }
