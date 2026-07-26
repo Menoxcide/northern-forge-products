@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T08:02:16.283Z",
+  "updated_at": "2026-07-26T08:02:17.441Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -82,10 +82,11 @@
       ]
     },
     "slabforge-ledger": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "da21cc90"
+        "da21cc90",
+        "7f85a7d3"
       ]
     }
   }
