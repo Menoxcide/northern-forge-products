@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T14:11:59.102Z",
+  "updated_at": "2026-07-26T14:54:47.322Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -139,10 +139,11 @@
       ]
     },
     "harbor-ledger": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7925a079"
+        "7925a079",
+        "79724c8b"
       ]
     },
     "forgebill-mcp": {
