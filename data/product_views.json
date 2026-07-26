@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-07-26T03:30:34.312Z",
+  "updated_at": "2026-07-26T03:30:35.315Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "3daa1da0",
-        "55b34f10"
+        "55b34f10",
+        "5d531541"
       ]
     }
   }
