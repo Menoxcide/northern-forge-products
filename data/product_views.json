@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T10:10:38.134Z",
+  "updated_at": "2026-07-26T10:36:05.485Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -130,6 +130,13 @@
         "7f85a7d3",
         "da21cc90",
         "b51cc86"
+      ]
+    },
+    "harbor-ledger": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "7925a079"
       ]
     }
   }
