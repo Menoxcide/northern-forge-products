@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-25T23:58:57.786521+00:00",
+  "updated_at": "2026-07-26T00:42:42.895661+00:00",
   "hub": "https://northern-forge-labs.vercel.app",
   "conversion_api": "https://nf-conversion.vercel.app",
   "github": "https://github.com/Menoxcide/northern-forge-products",
   "count": 110,
-  "live_count": 103,
-  "staging_count": 7,
+  "live_count": 51,
+  "staging_count": 2,
   "look": {
     "name": "liquid glass",
     "infusion": "diamond_plus",
@@ -127,7 +127,7 @@
       "url": "https://aetherglyph-loom.vercel.app",
       "monetization": "Free core + $4.99 pro",
       "blurb": "Glyph weaver from seed words + dice rolls. Local canvas.",
-      "status": "staging",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -199,7 +199,7 @@
       "url": "https://voidwhisper-sigil-loom.vercel.app",
       "monetization": "Free core + $3.99 pro",
       "blurb": "Sigil loom from words and dice for TTRPG nights.",
-      "status": "staging",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://strutmesh-status-ledger.vercel.app",
       "monetization": "Free core + $3.99 pro",
       "blurb": "Local mission/status queue for home-lab builders.",
-      "status": "staging",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -235,7 +235,7 @@
       "url": "https://keweenaw-kit-chart.vercel.app",
       "monetization": "Free core + $3.99 pro",
       "blurb": "Trail kit checklist with segment weight estimate.",
-      "status": "staging",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -244,7 +244,7 @@
       "url": "https://missionvault-queue.vercel.app",
       "monetization": "Free core + $3.99 pro",
       "blurb": "Local mission queue with toggle, reorder, and counts.",
-      "status": "staging",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -397,7 +397,7 @@
       "url": "https://northern-forge-labs.vercel.app/tools/sunrise-offset-planner",
       "monetization": "Free core + $3.99 pro",
       "blurb": "Plan shoot or trail start times relative to sunrise — be early without the guesswork.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -433,7 +433,7 @@
       "url": "https://pylon-ledger.vercel.app",
       "monetization": "Free single-view invoice with node limit; pro unlocks multi-board archives and unlimited connectors",
       "blurb": "Static one-pager generator producing brutalist invoices and estimates. Line items rendered as nodes with inline SVG connectors to show deliverable dependencies and phase…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -460,7 +460,7 @@
       "url": "https://ridge-json-carver.vercel.app",
       "monetization": "Free core paste-and-generate with share links; pro unlocks offline bundle export and saved interface packs",
       "blurb": "Paste trail JSON (weather, gear, routes) to auto-generate clean TypeScript interfaces with live SVG ridge preview and shareable links. Makers get instant typed data for apps…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -469,7 +469,7 @@
       "url": "https://liminal-light-grid.vercel.app",
       "monetization": "Free core canvas and exposure calculator; paid unlock for 40+ location presets and custom frame exports",
       "blurb": "Live SVG canvas lets makers trace blue-hour light paths across custom frames, instantly returning exposure values and rule-of-thirds overlays. Agents can call the embedded…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -487,7 +487,7 @@
       "url": "https://rivet-queue-anvil.vercel.app",
       "monetization": "Free to configure, preview countdowns and simulate loops; paywall on exporting embed code and downloading lead CSV",
       "blurb": "Single static page where makers forge embeddable waitlist widgets with live countdowns, tiered pricing teasers, and inbox-simple capture forms. Agentic loop simulator lets…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -505,7 +505,7 @@
       "url": "https://glyph-invoice-weaver.vercel.app",
       "monetization": "unlimited free basic weaves; pro paid hook unlocks advanced glyph presets and aurora skins",
       "blurb": "Open Glyph Invoice Weaver free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -523,7 +523,7 @@
       "url": "https://slab-invoice-mesh.vercel.app",
       "monetization": "Free single invoice view with core mesh toggles; Pro unlocks multi-board save, custom branding, and bulk export.",
       "blurb": "Single static page that renders a brutalist one-pager invoice/estimate with draggable line items, live status toggles (draft/sent/paid), and instant monospace copy-to-clipboard…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -532,7 +532,7 @@
       "url": "https://pact-sigil-ledger.vercel.app",
       "monetization": "Free core sigil weaving and basic particle trails; pro unlocks custom glyph skins, mood-engine presets, and branded veil exports",
       "blurb": "Open Pact Sigil Ledger free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -541,7 +541,7 @@
       "url": "https://hearth-bill.vercel.app",
       "monetization": "Free core generator with local storage; paid household share unlocks shared client presets and branded footer across devices.",
       "blurb": "Single-page static generator that turns client details, line items and notes into a clean printable one-pager with instant totals, local presets, and PDF export. Unique for…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -550,7 +550,7 @@
       "url": "https://velvet-margin-weaver.vercel.app",
       "monetization": "Free live canvas + exposure calculator; paid unlock for 40+ pro location light presets and custom aspect templates",
       "blurb": "Live SVG canvas lets makers drag horizon lines, rule-of-thirds anchors and light-angle arcs to preview exact golden/blue-hour exposure margins and falloff on any chosen aspect…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -559,7 +559,7 @@
       "url": "https://anvil-draft.vercel.app",
       "monetization": "Free to build and preview; hard paywall on branded PDF export and saved templates",
       "blurb": "Static one-pager invoice/estimate builder with drag-to-reorder line items, instant copper-toned preview, and one-click PDF export.",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -568,7 +568,7 @@
       "url": "https://ledger-snap.vercel.app",
       "monetization": "Free core generator + exports; pro unlocks batch history and template saves",
       "blurb": "Keyboard-driven one-pager invoice/estimate builder with live monospace preview, instant JSON export, and built-in version diff.",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -577,7 +577,7 @@
       "url": "https://pulseweave-mood-lattice.vercel.app",
       "monetization": "Free core glyph painting, particle simulation and name generation; pro unlocks custom particle skins, preset mood lattices and exportable dice tables",
       "blurb": "Static canvas tool where makers paint or seed glyphs that drive a live particle mood engine; each glyph modulates dice outcomes for progression scores and auto-generates…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -586,7 +586,7 @@
       "url": "https://verdictweave-matrix.vercel.app",
       "monetization": "Free unlimited matrix building and basic exports; paid hook for pro shareable links, CSV/PDF exports, and saved templates via optional Vercel KV stub.",
       "blurb": "Single-file interactive decision matrix for comparing agent deployment patterns or maker toolkits; users weight criteria, auto-score options, toggle glossary definitions…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -595,7 +595,7 @@
       "url": "https://liminal-seed-lattice.vercel.app",
       "monetization": "free core lattice + mood sliders; pro unlocks extra particle skins and preset dice tables",
       "blurb": "Live canvas particle lattice that ingests mood vectors and dice rolls to birth procedural glyphs and names; agents can call the deterministic seed+roll function for batch lore…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -604,7 +604,7 @@
       "url": "https://hearth-bill-sprout.vercel.app",
       "monetization": "free personal skill install + pro household share for synced templates and multi-user reminders",
       "blurb": "SKILL.md teaches agents a calm MCP workflow to generate one-page invoices and estimates from simple habit notes or lists; unique because it frames freelance billing as a low-pressure home routine rather than pure finance, using whitespace outlines and delightful empty states for ",
-      "status": "live",
+      "status": "killed",
       "kind": "agent_skill"
     },
     {
@@ -613,7 +613,7 @@
       "url": "https://slab-ledger.vercel.app",
       "monetization": "Free single slab view with core node assembly; pro unlocks multi-slab boards and saved templates",
       "blurb": "Renders a single static brutalist invoice/estimate canvas where makers drag structural nodes to assemble line items, auto-calculates totals in monospace, and exports clean…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -622,7 +622,7 @@
       "url": "https://indigo-pivot-canvas.vercel.app",
       "monetization": "Free live canvas + exposure calculator; paid unlock of 40 Great Lakes location presets with coral-indigo palettes and one-click export.",
       "blurb": "Single static canvas tool that lets makers drag composition anchors while live SVG overlays compute blue-hour exposure windows and light-angle falloff; agents can call the…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -640,7 +640,7 @@
       "url": "https://quillforge-onesheet.vercel.app",
       "monetization": "Free core editor + live preview; paid unlocks branded PDF export, custom templates, and shareable links",
       "blurb": "Live-editable one-page invoice/estimate canvas with drag-reorder line items, instant totals, embedded project rationale field, and magazine-style typography.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -676,7 +676,7 @@
       "url": "https://astralreckon-weaver.vercel.app",
       "monetization": "free core skill with basic MCP invoice calls; pro unlocks premium glyph presets, mood skins, and particle packs",
       "blurb": "Installable SKILL.md that teaches agents the niche workflow of generating freelancer invoice/estimate one-pagers via Northern Forge MCP tools; agents learn to summon void-aesthetic outputs by chaining glyph particles for line items, mood-engine tone calibration, and instant one-p",
-      "status": "live",
+      "status": "killed",
       "kind": "agent_skill"
     },
     {
@@ -694,7 +694,7 @@
       "url": "https://slabforge-ledger.vercel.app",
       "monetization": "Free single-slab view with live edits and clipboard export; pro unlocks multi-slab boards, saved templates, and PDF batch output.",
       "blurb": "Renders a single static brutalist invoice/estimate slab with monospace line items, auto-calculated totals, and copy-to-clipboard affordances; makers embed or share the…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -703,7 +703,7 @@
       "url": "https://vellum-mesh-ledger.vercel.app",
       "monetization": "Free single mesh view with core drag-and-status tools; Pro unlocks multi-board switching and saved exports",
       "blurb": "Static single-page ops dashboard where makers build task meshes via drag-to-connect nodes; auto-generates monospace status summaries with copy-to-clipboard. Agents parse…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -712,7 +712,7 @@
       "url": "https://anvilbill-mcp.vercel.app",
       "monetization": "Free: 20 basic generations per month. Paid: unlimited calls + premium templates and branding hooks.",
       "blurb": "Open AnvilBill MCP free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -721,7 +721,7 @@
       "url": "https://strike-draft.vercel.app",
       "monetization": "Free: unlimited drafts and preview. Hard paywall: PDF export, custom branding, saved templates.",
       "blurb": "Static one-pager invoice/estimate builder with drag-reorder line items, live copper preview, and instant calc.",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -730,7 +730,7 @@
       "url": "https://matrixforge-comparator.vercel.app",
       "monetization": "free basic matrix builds and scoring; paid pro exports, advanced timeline branching, and bulk comparisons",
       "blurb": "Open MatrixForge Comparator free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -739,7 +739,7 @@
       "url": "https://pactloom-mcp.vercel.app",
       "monetization": "free basic generations with core templates / pro tier for PDF exports, custom branding, and higher rate limits",
       "blurb": "Open PactLoom MCP free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -748,7 +748,7 @@
       "url": "https://voidglyph-scribe.vercel.app",
       "monetization": "Free core sigil generator with live preview; pro unlocks starfield particle skins, preset rune packs, and watermark-free PDF exports",
       "blurb": "Static HTML one-pager that lets freelancers weave invoice or estimate sigils by feeding particle glyphs, dice-rolled line items, and mood-engine tone sliders; exports a single…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -757,7 +757,7 @@
       "url": "https://hearthdraft-mcp.vercel.app",
       "monetization": "free personal tool calls with basic templates; pro household share unlocks shared family templates, recurring reminders, and multi-user access",
       "blurb": "Open HearthDraft MCP free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -766,7 +766,7 @@
       "url": "https://lumenveil-atlas.vercel.app",
       "monetization": "free exposure and composition tools with rate-limited calls; paid unlocks pro location presets and extended windows",
       "blurb": "Open Lumenveil Atlas free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -775,7 +775,7 @@
       "url": "https://willowbind-option-grid.vercel.app",
       "monetization": "Free core matrix builder and live preview; pro unlocks one-click shareable static HTML export and saved template library via copy-paste code snippet.",
       "blurb": "Static single-file HTML tool letting makers build decision matrices with inline glossary definitions, soft-focus note fields, and weighted scoring columns. Unique agent value…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -784,7 +784,7 @@
       "url": "https://hearthmark-ledger.vercel.app",
       "monetization": "Free personal tool calls for solo freelancers; pro household share unlocks shared templates, client lists, and recurring reminder schedules.",
       "blurb": "Unique because it folds freelancer billing into calm home-habit flows—aut",
-      "status": "live",
+      "status": "merged",
       "kind": "mcp_server"
     },
     {
@@ -811,7 +811,7 @@
       "url": "https://strutforge-keeper.vercel.app",
       "monetization": "Free single-view skill install + pro multi-board mesh views and extended checklist templates",
       "blurb": "Installable SKILL.md that teaches agents to execute structural ops workflows: maintain mesh health dashboards, generate node/edge status boards, and run checklist audits via MCP calls. Unique for agents because it enforces longevity-first architecture patterns (brutalist clarity,",
-      "status": "live",
+      "status": "killed",
       "kind": "agent_skill"
     },
     {
@@ -820,7 +820,7 @@
       "url": "https://hearthtrail-invoice.vercel.app",
       "monetization": "Free personal use with local saves and basic templates; Pro unlocks household share links, preset libraries, and multi-user exports",
       "blurb": "Turn kitchen-table notes into a warm invoice or estimate — line items, totals, print-ready sheet.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -829,7 +829,7 @@
       "url": "https://kettlebill.vercel.app",
       "monetization": "Free personal generator with instant exports; Pro unlocks household template sharing and saved family profiles",
       "blurb": "Log today's work like recipe steps, brew a friendly invoice sheet with hours, rates, and totals.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -847,7 +847,7 @@
       "url": "https://forge-signal-widget.vercel.app",
       "monetization": "Free widget preview + basic embeds; paywall on agent loop simulation, CSV export, and custom branding",
       "blurb": "Single static HTML configurator that outputs embeddable waitlist widgets with live agent-mission counters, tiered pricing displays, and inbox-simple email capture. Makers…",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -865,7 +865,7 @@
       "url": "https://maplelight-mcp.vercel.app",
       "monetization": "free 50 tool calls per day; paid tier unlocks unlimited calls, custom location uploads, and shareable plan exports",
       "blurb": "Open MapleLight MCP free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -874,7 +874,7 @@
       "url": "https://lumendrift-mcp.vercel.app",
       "monetization": "free basic location/time calls; paid pro preset packs unlock hidden Northern Michigan coordinates and custom exposure curves",
       "blurb": "Unique via live SVG light-angle previews retur",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -883,7 +883,7 @@
       "url": "https://rivet-type.vercel.app",
       "monetization": "Free forever core generation and URL sharing; pro unlocks batch paste and local history export.",
       "blurb": "Paste JSON into a single pane to emit production-ready TypeScript interfaces with optional detection, array handling, and one-click shareable URL fragments. Makers get instant…",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -892,7 +892,7 @@
       "url": "https://dev-tool-paste-json-typescript-inte.vercel.app",
       "monetization": "Free forever core + pro batch/history",
       "blurb": "MVP utility with distinct persona design",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -901,7 +901,7 @@
       "url": "https://mistline-codex.vercel.app",
       "monetization": "Free core skill file + basic tool-call examples; pro unlocks curated Michigan location presets and advanced composition overlays",
       "blurb": "Installable SKILL.md that trains agents to orchestrate Northern Forge MCP calls for blue-hour location scouting, exposure layering, and frame composition; unique because it embeds poetic light logic as callable agent steps rather than static advice, directly tied to Michigan nigh",
-      "status": "live",
+      "status": "killed",
       "kind": "agent_skill"
     },
     {
@@ -910,7 +910,7 @@
       "url": "https://typeknot.vercel.app",
       "monetization": "Free single paste + share; pro unlocks batch JSON processing and local history store",
       "blurb": "Paste JSON, emit strict TypeScript interface with union/array inference. URL hash encodes full state for instant shareable links.",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -919,7 +919,7 @@
       "url": "https://echoweave-sigils.vercel.app",
       "monetization": "free basic tool calls with rate limits; paid pro presets unlock custom mood engines and particle skins",
       "blurb": "Open Echoweave Sigils free — clear steps, local-first, done in one sitting.",
-      "status": "live",
+      "status": "killed",
       "kind": "mcp_server"
     },
     {
@@ -928,7 +928,7 @@
       "url": "https://lumenpact-mcp.vercel.app",
       "monetization": "Free basic tool calls for simple estimates; paid unlocks pro location presets and golden-hour composition templates",
       "blurb": "MCP server exposing tools for agents to generate photography-themed invoice/estimate one-pagers; agents call generate_estimate or apply_preset to auto-compose line items around golden-hour shoots, locations, and exposure-based pricing. Unique because it embeds visual composition ",
-      "status": "live",
+      "status": "merged",
       "kind": "mcp_server"
     },
     {
@@ -937,7 +937,7 @@
       "url": "https://lumen-veil-rho.vercel.app",
       "monetization": "Free core generator + pro preset packs for common photography metadata schemas (EXIF, Lightroom, camera profiles)",
       "blurb": "Static HTML page: paste any JSON to instantly generate clean TypeScript interfaces with shareable links. Unique interaction renders the data shape as an SVG light-composition diagram (nodes as soft orbs, edges as ray pat",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -946,7 +946,7 @@
       "url": "https://claimweave.vercel.app",
       "monetization": "Free core decode/query/export; pro unlocks batch file drops and session history",
       "blurb": "Decode JWT to JSON tree, run live regex on claim paths and values, emit matching TypeScript interfaces and guards. Agents paste token once, get executable TS output without leaving the page.",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -955,7 +955,7 @@
       "url": "https://inkline-weaver.vercel.app",
       "monetization": "Free basic generation and preview; pro unlocks saved templates, custom branding, and shareable static links",
       "blurb": "Static HTML canvas where freelancers drag line items across a daylight paper simulation; live margin calculations and typographic hierarchy update instantly. Unique for makers because it treats the invoice as a single ed",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -964,7 +964,7 @@
       "url": "https://hearthmark.vercel.app",
       "monetization": "Free personal use with unlimited one-pagers; pro unlocks household sharing, template library, and client portal links",
       "blurb": "Generates warm, printable one-page invoices and estimates with built-in habit checklist and maker note sections; unique calm kitchen-note layout helps home freelancers stay organized without pressure, blending billing wi",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
@@ -973,7 +973,7 @@
       "url": "https://glyphstream-weaver.vercel.app",
       "monetization": "Free skill installs with core workflows; pro unlocks rare particle presets, custom glyph skins, and extended mood engine states",
       "blurb": "SKILL.md that teaches agents to chain MCP particle emitters into living glyph sigils, then feed results into mood engines and dice rollers for procedural name generation inside Astral Void scenes. Unique because it turns raw particle data into agent-callable glyph state machines ",
-      "status": "live",
+      "status": "killed",
       "kind": "agent_skill"
     },
     {
@@ -982,7 +982,7 @@
       "url": "https://leadknot-timer.vercel.app",
       "monetization": "Free core countdown + form generator; hard paywall on agent-callable lead sync, tiered pricing exports, and real-time updates",
       "blurb": "Single static page that builds embeddable pricing widgets with live countdowns and email waitlist capture. Makers paste a mission brief; agents call the generated snippet to auto-increment leads and trigger outcome loops",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -991,7 +991,7 @@
       "url": "https://aetherglyph-ledger.vercel.app",
       "monetization": "Free core generator + basic glyphs; pro unlocks premium astral skins, preset mood engines and advanced particle behaviors",
       "blurb": "Live static HTML invoice/estimate generator where freelancers drag-drop glyph particles onto a purple starfield canvas to auto-weave line items, totals and mood tones; unique live SVG feedback and game-like progression (",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -1000,7 +1000,7 @@
       "url": "https://claim-weave.vercel.app",
       "monetization": "Free core parser + regex tester + exports; pro unlocks batch history and saved claim patterns",
       "blurb": "Static page that pastes JWT, auto-extracts claims, lets makers write/test regex against claim values, then exports matching TS interfaces + agent-callable JSON fixtures. Unique because it turns JWT inspection into a live",
-      "status": "live",
+      "status": "killed",
       "kind": "web_tool"
     },
     {
@@ -1009,7 +1009,7 @@
       "url": "https://dovetail-onepage.vercel.app",
       "monetization": "Free single-view canvas and export; Pro unlocks multi-board templates and saved structural meshes",
       "blurb": "Static HTML canvas where freelancers spatially compose and connect invoice line items as structural nodes with live balance connectors and equilibrium indicators. Unique maker interaction: drag-to-link items into a visua",
-      "status": "live",
+      "status": "merged",
       "kind": "web_tool"
     },
     {
