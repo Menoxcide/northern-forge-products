@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T11:33:56.187Z",
+  "updated_at": "2026-07-26T12:24:07.476Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -125,13 +125,14 @@
       ]
     },
     "dovetail-onepage": {
-      "unique": 4,
-      "total": 6,
+      "unique": 5,
+      "total": 7,
       "keys": [
         "7f85a7d3",
         "da21cc90",
         "b51cc86",
-        "7925a079"
+        "7925a079",
+        "27d1f360"
       ]
     },
     "harbor-ledger": {
