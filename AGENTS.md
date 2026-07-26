@@ -78,7 +78,11 @@ OK: brand name, hub links, free/pro pricing, steps/help.
 ## Polish · uniqueness · agent surfaces
 
 - Uniqueness map: `UNIQUENESS.md` · `data/uniqueness_map.json` · freeze invoice clones
+- **Ship gate:** `uniqueness_gate.py` blocks saturated JTBD clones in `validate_idea`
+- **Apply roles:** `python3 uniqueness_gate.py apply` stamps kill/merge on `live_products.json`
+- Agent surfaces: `AGENT_SURFACE.md` · `agent_surface_template.py` for MCP/skill landings
 - Hot polish: `python3 polish_hot_tools.py` (top-10 job lines + empty states)
+- Deploy: Vercel **Pro CLI** via `deploy_via_cli` / `--scope menoxcides-projects` (API token may be stale)
 
 ## Catalog (GitHub)
 
@@ -92,6 +96,6 @@ https://github.com/Menoxcide/northern-forge-products — live fleet catalog + ma
 
 ## Deploy notes
 
-- Hobby **100 API deploys/day** — use `deploy_quota.py`; prefer CLI session if REST token 403  
-- Vercel MCP `deploy_to_vercel` needs OAuth; CLI auth often works when secrets token is stale  
-- GitHub write: MCP OAuth works; stored PAT may be contents-read only
+- Vercel **Pro** — prefer CLI session (`deploy_via_cli`); vault `VERCEL_TOKEN` may 403  
+- Scope: `--scope menoxcides-projects` · team `team_FUzvh15z3pvgTzB7DGHE9jPv`  
+- GitHub write: vault PAT (rotated) works for `python3 github_deploy.py sync`
