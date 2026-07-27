@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T03:32:49.226Z",
+  "updated_at": "2026-07-27T03:32:56.378Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -172,7 +172,7 @@
     },
     "indigo-pivot-canvas": {
       "unique": 4,
-      "total": 4,
+      "total": 5,
       "keys": [
         "79724c8b",
         "b51cc86",
