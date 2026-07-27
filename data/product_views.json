@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T01:14:07.243Z",
+  "updated_at": "2026-07-27T01:20:46.080Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -155,10 +155,11 @@
       ]
     },
     "forgebill-mcp": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "b51cc86"
+        "b51cc86",
+        "2b57ead5"
       ]
     },
     "mapleway-roster": {
