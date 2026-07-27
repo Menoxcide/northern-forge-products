@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T03:33:24.593Z",
+  "updated_at": "2026-07-27T03:33:25.415Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -238,11 +238,12 @@
       ]
     },
     "x-copy-forge": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "a5ffe1ae",
-        "4da2a940"
+        "4da2a940",
+        "f4510484"
       ]
     },
     "forge-bridge": {
@@ -265,6 +266,13 @@
       "total": 1,
       "keys": [
         "75bc0038"
+      ]
+    },
+    "json-ts-interface-forge": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "f4510484"
       ]
     }
   }
