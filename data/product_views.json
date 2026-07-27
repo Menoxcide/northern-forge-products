@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T01:20:46.080Z",
+  "updated_at": "2026-07-27T01:21:14.433Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -247,6 +247,13 @@
       "total": 1,
       "keys": [
         "f3601719"
+      ]
+    },
+    "revenue-page": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "75bc0038"
       ]
     }
   }
