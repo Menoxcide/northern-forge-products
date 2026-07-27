@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T03:28:23.229Z",
+  "updated_at": "2026-07-27T03:28:28.748Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -244,10 +244,11 @@
       ]
     },
     "forge-bridge": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7acbac69"
+        "7acbac69",
+        "738ffd6"
       ]
     },
     "rate-card-forge": {
