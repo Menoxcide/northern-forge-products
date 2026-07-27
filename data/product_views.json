@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T01:12:39.582Z",
+  "updated_at": "2026-07-27T01:13:09.526Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -22,11 +22,12 @@
       ]
     },
     "ridgeway-reckoner": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "7925a079",
-        "b51cc86"
+        "b51cc86",
+        "2b57ead5"
       ]
     },
     "lumen-veil": {
