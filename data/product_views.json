@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T01:13:45.666Z",
+  "updated_at": "2026-07-27T01:14:07.243Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -196,7 +196,7 @@
     },
     "northern-forge-hub": {
       "unique": 8,
-      "total": 9,
+      "total": 10,
       "keys": [
         "30eb748c",
         "a5ffe1ae",
