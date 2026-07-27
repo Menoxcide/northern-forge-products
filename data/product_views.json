@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T02:24:29.119Z",
+  "updated_at": "2026-07-27T02:24:36.673Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -234,10 +234,11 @@
       ]
     },
     "x-copy-forge": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "a5ffe1ae"
+        "a5ffe1ae",
+        "4da2a940"
       ]
     },
     "forge-bridge": {
