@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T00:58:02.478Z",
+  "updated_at": "2026-07-29T00:59:06.513Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -49,7 +49,7 @@
     },
     "specterjwt-mcp": {
       "unique": 4,
-      "total": 4,
+      "total": 5,
       "keys": [
         "b51cc86",
         "79724c8b",
