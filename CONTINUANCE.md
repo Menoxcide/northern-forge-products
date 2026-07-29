@@ -51,8 +51,9 @@ python3 fleet_maintain.py oil
 5. thrift  
 6. unlocks  
 7. hub_sync (local write always; deploy may queue)  
-8. conversion smoke  
-9. health_metrics  
+8. github catalog (`build_hub_catalog` → `github_deploy.sync_catalog_to_github`: README/CATALOG/PRODUCTS local mirror + best-effort remote)  
+9. conversion smoke  
+10. health_metrics  
 
 ## Escalation
 
@@ -63,7 +64,7 @@ python3 fleet_maintain.py oil
 | deploy 402 | wait budget / Vercel Pro; `deploy_quota.py` |
 | REST token 403 | use CLI session (`vercel deploy --prod --yes`) |
 | AI timeout | conversion uses fast NVIDIA 8b first |
-| GitHub write 403 | use GitHub MCP OAuth or PAT with contents:write |
+| GitHub write 403 | use GitHub MCP OAuth (`github__push_files`) or PAT with **contents:write**; local mirror always at `data/github_catalog_sync/` via `python3 github_deploy.py local` |
 
 ## North star
 
