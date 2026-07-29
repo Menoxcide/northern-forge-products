@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T00:49:52.266Z",
+  "updated_at": "2026-07-29T00:58:02.478Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -48,12 +48,13 @@
       ]
     },
     "specterjwt-mcp": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "b51cc86",
         "79724c8b",
-        "339b965d"
+        "339b965d",
+        "7ad4a025"
       ]
     },
     "kettlebill": {
