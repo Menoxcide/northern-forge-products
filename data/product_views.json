@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T09:12:02.699Z",
+  "updated_at": "2026-07-29T00:20:08.488Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -38,12 +38,13 @@
       ]
     },
     "aurora-loom-skill": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "79724c8b",
         "b51cc86",
-        "2b57ead5"
+        "2b57ead5",
+        "7ad4a025"
       ]
     },
     "specterjwt-mcp": {
