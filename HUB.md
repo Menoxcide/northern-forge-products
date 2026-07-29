@@ -2,6 +2,11 @@
 
 **Public hub:** https://northern-forge-labs.vercel.app
 
+## Counts
+
+- **51 browsable live** (default hub count — same as public explorer)
+- 40 useful · 65 registered · 14 demoted fantasy/hollow (hidden by default)
+
 ## Look
 
 Liquid glass fleet chrome (diamond QoL):
@@ -12,6 +17,7 @@ Liquid glass fleet chrome (diamond QoL):
 ## Sections
 
 - Live products + **Popular** hot strip (analytics)
+- **Useful** category (weekly-use gate)
 - **Creation manifesto** · makers, agents, MCP
 - **Agents & MCP** pillars
 - Pay · Unlocks · Terms · Privacy
@@ -30,18 +36,11 @@ Base: `https://nf-conversion.vercel.app`
 | `POST /api/checkout` · Stripe webhook | Unlocks |
 | `GET /api/unlock/verify` · `GET /api/unlock/ledger` | Entitlements |
 
-## Brand assets (CC0)
-
-- https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css
-- https://northern-forge-labs.vercel.app/assets/brand/atmosphere.jpg
-- https://northern-forge-labs.vercel.app/assets/brand/mark.jpg
-- https://northern-forge-labs.vercel.app/assets/brand/banner.jpg
-- https://northern-forge-labs.vercel.app/assets/brand/og-card.jpg
-
 ## Social
 
 - X: https://x.com/NForge26
-- GitHub catalog: this repo (51 live products)
+- GitHub catalog: this repo (51 browsable live products)
+- MCP: https://nf-mcp.vercel.app
 
 ## Fleet
 
