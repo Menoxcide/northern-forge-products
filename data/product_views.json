@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T03:45:52.057Z",
+  "updated_at": "2026-07-29T04:22:15.264Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -177,13 +177,14 @@
       ]
     },
     "indigo-pivot-canvas": {
-      "unique": 4,
-      "total": 5,
+      "unique": 5,
+      "total": 6,
       "keys": [
         "79724c8b",
         "b51cc86",
         "7925a079",
-        "339b965d"
+        "339b965d",
+        "7ad4a025"
       ]
     },
     "forgequeue-mcp": {
