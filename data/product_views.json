@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T05:00:57.972Z",
+  "updated_at": "2026-07-29T05:26:31.925Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -189,11 +189,12 @@
       ]
     },
     "forgequeue-mcp": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "79724c8b",
-        "d0132692"
+        "d0132692",
+        "7ad4a025"
       ]
     },
     "hub": {
