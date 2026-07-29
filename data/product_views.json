@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T00:20:08.488Z",
+  "updated_at": "2026-07-29T00:49:52.266Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -67,13 +67,14 @@
       ]
     },
     "aetherglyph-ledger": {
-      "unique": 4,
-      "total": 5,
+      "unique": 5,
+      "total": 6,
       "keys": [
         "b51cc86",
         "79724c8b",
         "7925a079",
-        "2f98a1ad"
+        "2f98a1ad",
+        "7ad4a025"
       ]
     },
     "liminal-seed-lattice": {
