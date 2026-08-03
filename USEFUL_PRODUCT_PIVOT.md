@@ -62,7 +62,27 @@ Autonomous loop optimized for **ship cadence + uniqueness + agent theater**, not
 |----|--------|
 | One strong **nf-mcp** with 15–25 real tools | Spin 20 new `*MCP` Vercel sites |
 | Tools agents call weekly | `hello_forge` / oracle / sigil |
-| Document install once in hub `/agents` | Duplicate landing pages |
+| Document install once in hub `/agents` as **Skills & MCP** | Duplicate landing pages |
+| Portable skills/MCP for *any* agent | Catalog “ops skills” (always_on, thrift, fleet oil) |
+| Keep forge continuum as backend | Sell runbooks as products |
+
+## Portable agent rule (enforced)
+
+Catalog `mcp_server` and `agent_skill` **must** pass `usefulness_gate` including:
+
+1. Weekly-use checklist (plain title, one job, not fantasy)  
+2. **not_ops_only** — no always_on / thrift / fleet oil / NF-only unlocks tutorials  
+3. **portable_for_any_agent** — useful without owning Northern Forge  
+4. MCP: ≥2 real tools (or clear job language at idea gate; no hello/ping)  
+
+Buckets: `useful` | `fantasy` | `hollow_mcp` | `ops_only` | `unknown`.  
+Hub demotes fantasy / hollow / ops_only. Thrift skips them.  
+
+Public positioning:
+
+- Hub nav: **Skills & MCP** (not “Agents” as ops)  
+- `/agents`: install surface first; operator runbook collapsed  
+- Local Grok ops skills stay off the product catalog
 
 ## Claude packages
 
