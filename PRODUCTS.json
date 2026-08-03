@@ -1,1 +1,2713 @@
-PLACEHOLDER
+{
+  "updated_at": "2026-08-03T04:41:44.577064+00:00",
+  "hub": "https://northern-forge-labs.vercel.app",
+  "conversion_api": "https://nf-conversion.vercel.app",
+  "mcp": "https://nf-mcp.vercel.app",
+  "github": "https://github.com/Menoxcide/northern-forge-products",
+  "count": 160,
+  "live_count": 76,
+  "live_registered": 90,
+  "demoted_count": 14,
+  "useful_count": 54,
+  "staging_count": 13,
+  "kind_counts": {
+    "web_tool": 69,
+    "mcp_server": 1,
+    "agent_skill": 4
+  },
+  "count_policy": {
+    "version": 2,
+    "default": "browsable_live",
+    "note": "Hub and GitHub README default counts exclude demoted fantasy/hollow products. live_registered includes them for ops."
+  },
+  "look": {
+    "name": "liquid glass",
+    "infusion": "diamond_plus",
+    "tier": "cosmos",
+    "css": "https://northern-forge-labs.vercel.app/assets/brand/nf-glass.css",
+    "js": "https://northern-forge-labs.vercel.app/js/nf-glass.js",
+    "atmosphere": "https://northern-forge-labs.vercel.app/assets/brand/atmosphere.jpg",
+    "source": "diamond_qol.patch_html + product_templates + apply_sota_design"
+  },
+  "design": {
+    "average_score": 83.8,
+    "grades": {
+      "A": 112,
+      "C": 1,
+      "F": 18,
+      "B": 17,
+      "D": 12
+    },
+    "at": "2026-08-03T04:41:41.613260+00:00"
+  },
+  "qol": {
+    "at": "2026-08-03T04:39:47.757437+00:00",
+    "patched": 159,
+    "deployed": 0
+  },
+  "products": [
+    {
+      "id": "agent-handoff-packet",
+      "title": "Agent Handoff Packet Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/agent-handoff-packet",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Fill goal · done · open · files · verify → get a paste-ready handoff packet for the next agent mid-task, with markdown or plain formats.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "agent-tool-allowlist",
+      "title": "Agent Tool-Allowlist Matrix",
+      "url": "https://northern-forge-labs.vercel.app/tools/agent-tool-allowlist",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste proposed tools + risk tags → allow / deny / ask matrix with a copy-ready policy card.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "agents",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "agent-tool-receipt",
+      "title": "Agent Tool-Call Receipt",
+      "url": "https://northern-forge-labs.vercel.app/tools/agent-tool-receipt",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste an MCP or agent tool trace → get a clean receipt: tools called, args summary, errors, and a next-fix checklist. Built for builders debugging agent sessions.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "apptrack-board",
+      "title": "AppTrack Board",
+      "url": "https://northern-forge-labs.vercel.app/tools/apptrack",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste job or app statuses → stage board + CSV. See what's stuck without a project manager.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "productivity"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "base64-lens",
+      "title": "Base64 Lens",
+      "url": "https://northern-forge-labs.vercel.app/tools/base64-lens",
+      "monetization": "Free core + $2.99 pro",
+      "blurb": "Encode or decode Base64 safely in-browser — check payloads before they break an API.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "case-converter-snake-camel-pascal-kebab",
+      "title": "Case converter snake camel pascal kebab",
+      "url": "https://case-converter-snake-camel-pascal-kebab-menoxcides-projects.vercel.app",
+      "monetization": "Hard paywall on the useful half",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "client-status-pulse",
+      "title": "Client Status Pulse",
+      "url": "https://northern-forge-labs.vercel.app/tools/client-status-pulse",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "One-page client status you can paste into email — green/yellow/red without a status meeting.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "productivity"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "contrast-forge",
+      "title": "Contrast Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/contrast-forge",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Check WCAG contrast on your palette so text stays readable — pick colors that pass AA/AAA.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "x-copy-forge",
+      "title": "Copy Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/x-copy-forge",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Drop your product link + blurb → get launch posts, pins, threads, and reply starters ready to paste.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "creative",
+        "hot",
+        "makers"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": true
+    },
+    {
+      "id": "cron-humanizer",
+      "title": "Cron Humanizer",
+      "url": "https://northern-forge-labs.vercel.app/tools/cron-humanizer",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a cron expression → read it in plain English. Stop guessing what 0 3 * * 1 means.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "productivity",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "cron-next-fire",
+      "title": "Cron Next-Fire Explainer",
+      "url": "https://northern-forge-labs.vercel.app/tools/cron-next-fire",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste cron expressions → human schedule + next fire times in a chosen timezone before you merge.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "productivity",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "driftline-pack-canvas",
+      "title": "Driftline Pack Canvas",
+      "url": "https://driftline-pack-canvas-menoxcides-projects.vercel.app",
+      "monetization": "Free canvas core with basic Michigan trails + pro pack for offline export and custom route saves",
+      "blurb": "Static canvas tool where users drag Michigan trail gear onto stylized UP lake maps, then tweak snow depth and hunting season sliders for instant weight and balance feedback. Unique because field agents can simulate exact",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "dusk-veil-composer",
+      "title": "Dusk Veil Composer",
+      "url": "https://dusk-veil-composer.vercel.app",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Compose golden-hour mood boards and copy for shoots.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "env-var-leak-scanner",
+      "title": "Env Var Leak Scanner",
+      "url": "https://northern-forge-labs.vercel.app/tools/env-var-leak-scanner",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste text → flag likely API keys, tokens, and .env-shaped secrets with redaction copy before a public gist or screenshot.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "builders",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "focus-block-timer",
+      "title": "Focus Block Timer",
+      "url": "https://northern-forge-labs.vercel.app/tools/focus-block-timer",
+      "monetization": "Free core + $2.99 pro",
+      "blurb": "Set a focus block, jot what you're working on, and stay on one task until the timer rings — no login, no cloud.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "productivity",
+        "habits",
+        "makers"
+      ],
+      "primary_category": "productivity",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "forgebill",
+      "title": "ForgeBill",
+      "url": "https://forgebill-iota.vercel.app",
+      "monetization": "Free core editor + pro batch export and saved history",
+      "blurb": "Build a clean invoice or estimate in one page: line items, tax, total, print or copy. Made for freelancers.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "invoicing",
+        "creative"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "forgebill-skill",
+      "title": "ForgeBill Skill",
+      "url": "https://forgebill-skill.vercel.app",
+      "monetization": "free core skill with single-invoice workflow; pro unlocks batch processing and revision history",
+      "blurb": "SKILL.md teaches agents a niche workflow to generate freelancer invoice/estimate one-pagers via MCP tools: JSON templating, regex line validation, base64 asset embeds, and diff-based revisions. Unique for agents because it adds instant fixture-based debugging loops and copy-to-cl",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "builders",
+        "makers",
+        "invoicing",
+        "creative"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "freelancer-invoice-skill",
+      "title": "Freelancer Invoice Skill",
+      "url": "https://northern-forge-labs.vercel.app/tools/freelancer-invoice-skill",
+      "monetization": "Free skill",
+      "blurb": "Installable skill: generate clean freelancer invoices and estimates with line items, tax, and print-ready totals via MCP + free web tool.",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "gear-pack-weight",
+      "title": "Gear Pack Weight Builder",
+      "url": "https://northern-forge-labs.vercel.app/tools/gear-pack",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Build a pack list and see total weight in grams and pounds before you hit the trail.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "harbor-ledger",
+      "title": "Harbor Ledger",
+      "url": "https://harbor-ledger.vercel.app",
+      "monetization": "Free core composer and basic golden-hour templates; pro unlocks curated Great Lakes dusk location presets with pre-filled rates and seasonal surcharges",
+      "blurb": "Single-file static HTML that lets photographers compose elegant one-page estimates and invoices with live SVG canvas preview; line items render as framed exposures under…",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "hearth-harbor-streaks",
+      "title": "Hearth Harbor Streaks",
+      "url": "https://northern-forge-labs.vercel.app/tools/streaks",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Track household habits together and print a weekly streak card — keep the chain alive without another app account.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "habits",
+        "makers"
+      ],
+      "primary_category": "habits",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "hook-line-forge",
+      "title": "Hook Line Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/hook-line-forge",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Write a scroll-stopping first line for posts and emails — test hooks until one clicks.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "creative"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "invoice-line-math",
+      "title": "Invoice Line Math Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/invoice-line-math",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste line items as qty × rate → get subtotal, tax, total, and a clean table you can drop into an invoice before you send.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "json-path-probe",
+      "title": "JSON Path Probe Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/json-path-probe",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste JSON → path probe table with types, nulls, and copy-ready accessors before writing client code.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "json-ts-interface-forge",
+      "title": "JSON → TS Interface Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/json-ts",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste any JSON → get TypeScript interfaces instantly. Fix types without rewriting by hand.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "hot",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": true
+    },
+    {
+      "id": "jwt-claim-lens",
+      "title": "JWT Claim Lens",
+      "url": "https://northern-forge-labs.vercel.app/tools/jwt-claim-lens",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a JWT → see header and claims decoded. Debug auth tokens without leaving the browser.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "export-passport",
+      "title": "Local-First Export Passport",
+      "url": "https://northern-forge-labs.vercel.app/tools/export-passport",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Scan listed localStorage keys on this device → download a JSON/CSV export pack and a wipe checklist before you clear browser storage.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mcp-resource-uri-linter",
+      "title": "MCP Resource URI Linter",
+      "url": "https://northern-forge-labs.vercel.app/tools/mcp-resource-uri-linter",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste resources/list JSON → URI scheme checks, missing names, template gaps, and duplicate URIs before clients list resources.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mcp-prompts-list-health",
+      "title": "MCP prompts/list Health Card",
+      "url": "https://northern-forge-labs.vercel.app/tools/mcp-prompts-list-health",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a prompts/list payload → health card: count, missing descriptions, argument gaps, name collisions.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "mi-golden-hour",
+      "title": "MI Golden Hour Planner",
+      "url": "https://mi-golden-hour-planner.vercel.app",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Pick a Northern Michigan town and date — get sunrise, golden hour, and sunset so you show up when the light is perfect.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "hot",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": true
+    },
+    {
+      "id": "mailforge",
+      "title": "MailForge",
+      "url": "https://nf-mailforge.vercel.app",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Write in Markdown → get clean email HTML. Preview and copy without a marketing suite.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "creative"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mapleway-roster",
+      "title": "Mapleway Roster",
+      "url": "https://mapleway-roster.vercel.app",
+      "monetization": "Free personal trails with local storage; pro unlocks household sharing via copy-paste JSON bundles and printable map PDFs",
+      "blurb": "Static trail-map habit logger where daily chores and meals become draggable waypoints on a woodland path; users tap markers to log progress with soft kitchen-note prompts. Unique agent value: simple JS-callable hooks let",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "builders",
+        "habits",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "meeting-cost-clock",
+      "title": "Meeting Cost Clock",
+      "url": "https://northern-forge-labs.vercel.app/tools/meeting-cost-clock",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "See how much this meeting costs in real time — rates × people × minutes. End it sooner.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "productivity",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "micro-waitlist-countdown",
+      "title": "Micro Waitlist + Countdown",
+      "url": "https://northern-forge-labs.vercel.app/tools/waitlist",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Spin up a 24-hour waitlist + countdown for a launch — local, fast, no week-long setup.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers",
+        "productivity"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "model-prompt-router",
+      "title": "Model Prompt Router Board",
+      "url": "https://northern-forge-labs.vercel.app/tools/model-prompt-router",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "One goal in → three model-ready prompt cards (Claude, GPT, Grok) with hard constraints and live character budgets. Copy each card when it fits the limit.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "northern-forge-mcp",
+      "title": "Northern Forge MCP",
+      "url": "https://nf-mcp.vercel.app",
+      "monetization": "Free core tools · pro API key later",
+      "blurb": "Agent tool server: diff text, explain cron, convert units, slug/case, reading time, mesh/loop status, action queue for human review, plus catalog and pack tools.",
+      "status": "live",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "outdoor-golden-hour-skill",
+      "title": "Outdoor Golden Hour Skill",
+      "url": "https://northern-forge-labs.vercel.app/tools/outdoor-golden-hour-skill",
+      "monetization": "Free skill",
+      "blurb": "Installable skill: plan northern outdoor shoots with golden-hour windows and pack weight totals agents can call without a dashboard.",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "pomodoro-focus-timer-with-session-count",
+      "title": "Pomodoro focus timer with session count",
+      "url": "https://pomodoro-focus-timer-with-session-count-menoxcides-projects.vercel.app",
+      "monetization": "Free basic matrix + pro export/share",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "productivity",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "prompt-context-forge",
+      "title": "Prompt Context Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/prompt-forge",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Paste messy notes once → get clean Claude, GPT, and Grok prompts you can copy. Magic buttons fill samples when you're stuck.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "creative",
+        "hot",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": true
+    },
+    {
+      "id": "prompt-token-budget",
+      "title": "Prompt Token Budget Board",
+      "url": "https://northern-forge-labs.vercel.app/tools/prompt-token-budget",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste prompt sections → rough token budget bars and a cut list when over limit before you send a long agent turn.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "prompt-variants-skill",
+      "title": "Prompt Variants Skill",
+      "url": "https://northern-forge-labs.vercel.app/tools/prompt-variants-skill",
+      "monetization": "Free skill",
+      "blurb": "Installable skill: turn one goal + notes into distinct Claude, GPT, and Grok prompts agents can forge without accounts.",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "regex-capture-namer",
+      "title": "Regex Capture Namer",
+      "url": "https://northern-forge-labs.vercel.app/tools/regex-capture-namer",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a regex + samples → named-group rewrite suggestions and a match table before you merge production patterns.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "regex-forge",
+      "title": "Regex Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/regex-forge",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Test regex with live highlights, flags, and a shareable URL — debug patterns before they hit production.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "remote-action-checklist",
+      "title": "Remote action checklist",
+      "url": "https://northern-forge-labs.vercel.app/tools/remote-action-checklist",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Turn a typed or spoken intent into a reviewable checklist of PC or mesh actions. Approve, copy, export. Nothing runs until you say so.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "creative",
+        "productivity",
+        "makers"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "rivetmesh-health-grid",
+      "title": "RivetMesh Health Grid",
+      "url": "https://rivetmesh-health-grid.vercel.app",
+      "monetization": "Free single-view grid with local persistence; Pro unlocks multi-board load/save and preset mesh templates",
+      "blurb": "Single static brutalist dashboard for ops mesh health: nodes as checklist items with status toggles, edge connectors via click, and monospace copy-to-clipboard reports.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "creative",
+        "makers"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "slug-case-forge",
+      "title": "Slug & Case Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/slug-case-forge",
+      "monetization": "Free core + $2.99 pro",
+      "blurb": "Turn titles into clean URL slugs, snake_case, or camelCase — one paste, three formats.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "tahquamenon-pack-scout",
+      "title": "Tahquamenon Pack Scout",
+      "url": "https://tahquamenon-pack-scout.vercel.app",
+      "monetization": "Free core canvas and basic UP trail layers. Pro unlocks offline JSON export and custom trail uploads.",
+      "blurb": "Static HTML canvas lets makers drag Michigan-specific gear onto live trail layers for Tahquamenon and Pictured Rocks. Auto-calcs pack weight, snow depth fit, and hunting season…",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "tool-schema-diff",
+      "title": "Tool Schema Diff Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/tool-schema-diff",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste old vs new MCP/tool JSON schemas → get a human break-risk report: renamed tools, required-field changes, type shifts, and safe ship checklist.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "trail-layer-checklist",
+      "title": "Trail Layer Checklist",
+      "url": "https://northern-forge-labs.vercel.app/tools/trail-layer-checklist",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Layer and gear checklist for northern weather — tick boxes before you leave the car.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mi-trailhead-snow-depth-visualizer",
+      "title": "Trailhead Snow Depth Visualizer",
+      "url": "https://mi-trailhead-snow-depth-visualizer.vercel.app",
+      "monetization": "Free view + $3 PDF unlock",
+      "blurb": "Check trailhead snow depth before you drive — quick boot vs snowshoe call for UP & northern Lower trails.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "typecast-anvil",
+      "title": "Typecast Anvil",
+      "url": "https://typecast-anvil-menoxcides-projects.vercel.app",
+      "monetization": "free core generator with instant share; pro unlocks batch paste, saved history, and export bundles",
+      "blurb": "Paste JSON, instantly output TypeScript interfaces with nested type support and URL-shareable state. Makers get keyboard-driven editing, live error feedback, and one-click copy; unique via spatial tree view of generated ",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "builders",
+        "invoicing",
+        "creative",
+        "makers"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "up-whiteout-driving",
+      "title": "UP Whiteout Driving Chip",
+      "url": "https://northern-forge-labs.vercel.app/tools/up-whiteout-driving",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Corridor + wind/snow heuristic → go / slow / park chip when whiteout may erase lane lines on UP roads.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "trails",
+        "makers"
+      ],
+      "primary_category": "trails",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "uuid-batch-forge",
+      "title": "UUID Batch Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/uuid-batch-forge",
+      "monetization": "Free core + $2.99 pro",
+      "blurb": "Generate a batch of UUIDs for tests, fixtures, or migrations — copy the whole list at once.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "creative",
+        "makers"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "unit-converter-length-mass-volume-temperature",
+      "title": "Unit converter length mass volume temperature",
+      "url": "https://unit-converter-length-mass-volume-temperatu-menoxcides-projects.vercel.app",
+      "monetization": "Free calculator + pro location presets",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "new",
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "agent-eval-rubric",
+      "title": "Agent Eval Rubric Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/agent-eval-rubric",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Score goal, tools, evidence, and next fix → one paste-ready pass/fail rubric card after an agent tool session.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "bridge-lift-wait",
+      "title": "Bridge Lift Wait Window",
+      "url": "https://northern-forge-labs.vercel.app/tools/bridge-lift-wait",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Pick Portage crossing + delay minutes → leave-by / wait chip when a lift might blow the Houghton–Hancock run.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "change-order-math",
+      "title": "Change-Order Math Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/change-order-math",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Original fee + out-of-scope lines → change-order total, margin check, and a paste-ready client note.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "corridor-delay-eta",
+      "title": "Corridor Delay ETA Chip",
+      "url": "https://northern-forge-labs.vercel.app/tools/corridor-delay-eta",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Pick a UP corridor, band distance, and speed heuristic → get a single leave-by / arrive chip before a lake-effect squall crosses your route.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "keweenaw-fog-commute",
+      "title": "Keweenaw Fog Commute Chip",
+      "url": "https://northern-forge-labs.vercel.app/tools/keweenaw-fog-commute",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Dewpoint spread + wind heuristic for named Keweenaw corridors — go / slow / delay chip before lake fog wipes visibility on the commute.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "lake-effect-go-nogo",
+      "title": "Lake-Effect Go / No-Go Strip",
+      "url": "https://northern-forge-labs.vercel.app/tools/lake-effect-go-nogo",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Pick a UP corridor and pull live wind/temp — get a free go / caution / no-go strip for lake-effect bands before you drive or run.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "lens-maker-utility",
+      "title": "Lens Maker utility",
+      "url": "https://lens-maker-utility-menoxcides-projects.vercel.app",
+      "monetization": "Free calculator + pro location presets",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mcp-tools-list-health",
+      "title": "MCP tools/list Health Card",
+      "url": "https://northern-forge-labs.vercel.app/tools/mcp-tools-list-health",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a tools/list payload → health card: tool count, missing schemas, required-field gaps, and rename risks before clients add your server.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "northwoods-light-scouting-docket",
+      "title": "Northwoods Light & Scouting Docket",
+      "url": "https://northwoods-light-scouting-docket-menoxcides-projects.vercel.app",
+      "monetization": "Free for personal light planning and custom local spots; Pro Household share unlocks print-ready visual scouting itineraries and multi-device shared family trail calendars.",
+      "blurb": "A calm, visual golden-hour and twilight planner tailored for Upper Peninsula shoreline photographers and trail scouts. Calculates hyper-local atmospheric sun angles, cloud horizon windows, and pack lists for major UP tra",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "porcupine-bluff-kit-ledger",
+      "title": "Porcupine Bluff Kit Ledger",
+      "url": "https://porcupine-bluff-kit-ledger.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Trail kit inventory ledger for Northern Michigan packs.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "rate-card-forge",
+      "title": "Rate Card Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/rate-card-forge",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Build a simple rate card for your services — packages, day rates, and what's included.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "ridgeway-reckoner",
+      "title": "Ridgeway Reckoner",
+      "url": "https://ridgeway-reckoner.vercel.app",
+      "monetization": "Free map and estimate builder; pro unlocks one-click PDF export and saved templates",
+      "blurb": "Static HTML tool that builds one-page estimates for UP trail guides and outfitters. Live SVG canvas draws a simple trail line; drag stops or change distance and line items…",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "skill-md-linter",
+      "title": "SKILL.md Frontmatter Linter",
+      "url": "https://northern-forge-labs.vercel.app/tools/skill-md-linter",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste a SKILL.md → frontmatter + section health card before agents load it.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "scope-creep-meter",
+      "title": "Scope Creep Meter",
+      "url": "https://northern-forge-labs.vercel.app/tools/scope-creep-meter",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Score whether a request is scope creep before you say yes — protect the original deal.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "productivity"
+      ],
+      "primary_category": "productivity",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "shore-ice-wind-chill",
+      "title": "Shore Ice Wind Chill Strip",
+      "url": "https://northern-forge-labs.vercel.app/tools/shore-ice-wind-chill",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Named Marquette & Keweenaw shore spots + wind/temp → chill and spray caution strip before a short walk on the rocks.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "thread-outline-forge",
+      "title": "Thread Outline Forge",
+      "url": "https://northern-forge-labs.vercel.app/tools/thread-outline-forge",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Outline a social thread before you write — beats, order, and a closer that lands.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "creative"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "up-black-ice-morning",
+      "title": "UP Black-Ice Morning Chip",
+      "url": "https://northern-forge-labs.vercel.app/tools/up-black-ice-morning",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Corridor + temp/dewpoint/precip heuristic → black-ice risk chip for named UP corridors before dawn.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "trailhead-freeze-thaw",
+      "title": "UP Trailhead Freeze-Thaw Strip",
+      "url": "https://northern-forge-labs.vercel.app/tools/trailhead-freeze-thaw",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Pick a UP trailhead and pull overnight min forecast → freeze-thaw caution strip for boots vs spikes before you leave the lot.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "voice-clone-studio",
+      "title": "Voice Clone Studio",
+      "url": "https://voice-clone-studio-roan.vercel.app",
+      "monetization": "Free local · run on your GPU (not cloud SaaS)",
+      "blurb": "Guided local voice training and XTTS speech on your own GPU. Voices stay on your machine — for creators and labs who want control, not cloud cloning.",
+      "status": "live",
+      "kind": "local_studio",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "voice-sing-studio",
+      "title": "Voice Sing Studio",
+      "url": "https://voice-sing-studio.vercel.app",
+      "monetization": "Free local · run on your GPU (not cloud SaaS)",
+      "blurb": "Guided local singing voice conversion on your GPU. Dry vocal in, your voice out — private by design.",
+      "status": "live",
+      "kind": "local_studio",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "water-carry-calc",
+      "title": "Water Carry Calc",
+      "url": "https://northern-forge-labs.vercel.app/tools/water-carry-calc",
+      "monetization": "Free core + $2.99 pro",
+      "blurb": "Estimate water to carry for a hike — distance, heat, and hours without the spreadsheet.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "webhook-hmac-desk",
+      "title": "Webhook HMAC Verify Desk",
+      "url": "https://northern-forge-labs.vercel.app/tools/webhook-hmac-desk",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Paste secret + raw body + signature header → recompute HMAC (Stripe/GitHub/Shopify-style) and match.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "new",
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": true,
+      "is_hot": false
+    },
+    {
+      "id": "astral-quote-lattice",
+      "title": "Astral Quote Lattice",
+      "url": "https://astral-quote-lattice.vercel.app",
+      "monetization": "Free core matrix editing and live preview; pro unlocks one-click PDF/PNG export, shareable link generation, and saved scenario presets.",
+      "blurb": "Renders a single static page where freelancers build one-page invoices or estimates by populating a live pricing decision matrix; drag-to-reorder line items, toggle scenario…",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "aurora-loom-skill",
+      "title": "Aurora Loom Skill",
+      "url": "https://aurora-loom-skill.vercel.app",
+      "monetization": "Free core skill + calculator; pro unlocks 40+ secret location presets and custom exposure recipes",
+      "blurb": "Installable SKILL.md that trains agents to orchestrate Northern Forge MCP tools for hyper-local Northern Michigan golden/blue hour windows, exposure math, and composition framing at secret shoreline and inland locations. Unique because it layers poetic light-direction prompts wit",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "ops_only",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "trails",
+        "builders"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "ceo-shipper-utility",
+      "title": "CEO Shipper utility",
+      "url": "https://ceo-shipper-utility-menoxcides-projects.vercel.app",
+      "monetization": "Hard paywall on the useful half",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "ops_only",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "dialectic-fork-matrix",
+      "title": "Dialectic Fork Matrix",
+      "url": "https://dialectic-fork-matrix.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Score two sides of a decision on your criteria — pick a fork with eyes open.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "makers"
+      ],
+      "primary_category": "makers",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "forgebill-mcp",
+      "title": "ForgeBill MCP",
+      "url": "https://forgebill-mcp.vercel.app",
+      "monetization": "Free: 20 tool calls per month with basic templates. Paid: unlimited calls, custom templates, branding, and PDF export.",
+      "blurb": "Unique because it is agent-first with no dashboard, enforces schema-vali",
+      "status": "live",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "hearth-type-weaver",
+      "title": "Hearth Type Weaver",
+      "url": "https://hearth-type-weaver.vercel.app",
+      "monetization": "Free core generation, live preview and basic sharing; pro unlocks bulk multi-object conversion and custom template presets via future hosted tier",
+      "blurb": "Paste JSON to generate clean, documented TypeScript interfaces with a live 'warm preview' pane showing usage examples and soft inline notes. Unique for makers because the shareable link encodes both the schema and option",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "builders"
+      ],
+      "primary_category": "builders",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "maple-ridge-route-weaver",
+      "title": "Maple Ridge Route Weaver",
+      "url": "https://maple-ridge-route-weaver.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Route weaving helper for ridge hikes.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "mote-sigil-dice",
+      "title": "Mote Sigil Dice",
+      "url": "https://mote-sigil-dice.vercel.app",
+      "monetization": "free basic tool calls with rate limits; pro unlocks custom mood engines and glyph skin presets via API key",
+      "blurb": "MCP server exposing tools that let agents generate particle glyphs, roll mood-weighted dice, and seed names from void lattices; unique because it turns ephemeral particle states into callable, composable randomness for narrative agents and procedural makers instead of static gene",
+      "status": "live",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "creative"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "nf-agent-ops-skill",
+      "title": "NF Agent Ops Skill",
+      "url": "https://northern-forge-labs.vercel.app/tools/nf-agent-ops-skill",
+      "monetization": "Free skill",
+      "blurb": "Installable skill: how agents use Northern Forge MCP + catalog + unlocks.",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "ops_only",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "rimeglyph-pulse-engine",
+      "title": "Rimeglyph Pulse Engine",
+      "url": "https://rimeglyph-pulse-engine.vercel.app",
+      "monetization": "Free engine with core particle glyphs and mood detection; pro unlocks rare aurora skins, exportable preset packs, and extended trail memory",
+      "blurb": "Static canvas tool that converts short phrases into evolving aurora-particle glyphs whose motion and color reflect detected mood vectors; makers tweak live parameters while agents can call the generation logic for instan",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "unlock-ledger-skill",
+      "title": "Schema-First Unlock Ledger Skill",
+      "url": "https://northern-forge-labs.vercel.app/tools/unlock-ledger-skill",
+      "monetization": "Free skill",
+      "blurb": "Installable skill for agents: verify Stripe Checkout sessions, map product_id, and never grant Pro from ?unlocked=1 or client flags alone.",
+      "status": "live",
+      "kind": "agent_skill",
+      "usefulness": "ops_only",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "veilweave-terminal",
+      "title": "Veilweave Terminal",
+      "url": "https://veilweave-terminal.vercel.app",
+      "monetization": "free core terminal with live glyphs + paid pro particle skins and preset packs",
+      "blurb": "Static neon-CRT web tool that ingests hyperlocal Northern Michigan coords to render live particle glyphs and mood-engine presets for sunrise/sunset/golden-hour timing; makers…",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "voidmote-oracle",
+      "title": "Voidmote Oracle",
+      "url": "https://voidmote-oracle.vercel.app",
+      "monetization": "free 100 calls/day + pro preset packs that unlock rarer particle behaviors and custom dice tables",
+      "blurb": "MCP server exposing 6 callable tools that let agents generate particle glyphs, roll mood-weighted dice, and derive system-aware names; unique because it fuses stigmergic pattern learning with aurora-north dice logic so agents can request fresh, lore-flavored randomness without hu",
+      "status": "live",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "creative"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "voidweave-dice-oracle",
+      "title": "Voidweave Dice Oracle",
+      "url": "https://voidweave-dice-oracle.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Roll dice, watch a glyph bloom, and grab a short oracle phrase for tabletop or creative sparks.",
+      "status": "live",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "creative"
+      ],
+      "primary_category": "creative",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "aetherglyph-ledger",
+      "title": "Aetherglyph Ledger",
+      "url": "https://aetherglyph-ledger.vercel.app",
+      "monetization": "Free core generator + basic glyphs; pro unlocks premium astral skins, preset mood engines and advanced particle behaviors",
+      "blurb": "Live static HTML invoice/estimate generator where freelancers drag-drop glyph particles onto a purple starfield canvas to auto-weave line items, totals and mood tones; unique live SVG feedback and game-like progression (",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "aetherglyph-loom",
+      "title": "Aetherglyph Loom",
+      "url": "https://aetherglyph-loom.vercel.app",
+      "monetization": "Free core + $4.99 pro",
+      "blurb": "Glyph weaver from seed words + dice rolls. Local canvas.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "agent-callable-mcp-utility-for-makers-distinct-t",
+      "title": "Agent-callable MCP utility for makers — distinct tools list, curl example, free ",
+      "url": "https://agent-callable-mcp-utility-for-makers-disti-menoxcides-projects.vercel.app",
+      "monetization": "Free toy + pro skins/presets",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "anvil-draft",
+      "title": "Anvil Draft",
+      "url": "https://anvil-draft.vercel.app",
+      "monetization": "Free to build and preview; hard paywall on branded PDF export and saved templates",
+      "blurb": "Static one-pager invoice/estimate builder with drag-to-reorder line items, instant copper-toned preview, and one-click PDF export.",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "anvilbill-mcp",
+      "title": "AnvilBill MCP",
+      "url": "https://anvilbill-mcp.vercel.app",
+      "monetization": "Free: 20 basic generations per month. Paid: unlimited calls + premium templates and branding hooks.",
+      "blurb": "Open AnvilBill MCP free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "astralreckon-weaver",
+      "title": "AstralReckon Weaver",
+      "url": "https://astralreckon-weaver.vercel.app",
+      "monetization": "free core skill with basic MCP invoice calls; pro unlocks premium glyph presets, mood skins, and particle packs",
+      "blurb": "Installable SKILL.md that teaches agents the niche workflow of generating freelancer invoice/estimate one-pagers via Northern Forge MCP tools; agents learn to summon void-aesthetic outputs by chaining glyph particles for line items, mood-engine tone calibration, and instant one-p",
+      "status": "killed",
+      "kind": "agent_skill",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "cedar-ledger",
+      "title": "Cedar Ledger",
+      "url": "https://northern-forge-labs.vercel.app/tools/cedar-ledger",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Log money in and out with simple notes — a calm personal cash ledger, local-only.",
+      "status": "staging",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "trails",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "claimweave",
+      "title": "ClaimWeave",
+      "url": "https://claimweave.vercel.app",
+      "monetization": "Free core decode/query/export; pro unlocks batch file drops and session history",
+      "blurb": "Decode JWT to JSON tree, run live regex on claim paths and values, emit matching TypeScript interfaces and guards. Agents paste token once, get executable TS output without leaving the page.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "claim-weave",
+      "title": "ClaimWeave",
+      "url": "https://claim-weave.vercel.app",
+      "monetization": "Free core parser + regex tester + exports; pro unlocks batch history and saved claim patterns",
+      "blurb": "Static page that pastes JWT, auto-extracts claims, lets makers write/test regex against claim values, then exports matching TS interfaces + agent-callable JSON fixtures. Unique because it turns JWT inspection into a live",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "dev-tool-paste-json-typescript-interface-generat",
+      "title": "Dev-tool: paste JSON → TypeScript interface generator (shareable)",
+      "url": "https://dev-tool-paste-json-typescript-inte.vercel.app",
+      "monetization": "Free forever core + pro batch/history",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "dovetail-onepage",
+      "title": "Dovetail Onepage",
+      "url": "https://dovetail-onepage.vercel.app",
+      "monetization": "Free single-view canvas and export; Pro unlocks multi-board templates and saved structural meshes",
+      "blurb": "Static HTML canvas where freelancers spatially compose and connect invoice line items as structural nodes with live balance connectors and equilibrium indicators. Unique maker interaction: drag-to-link items into a visua",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "echoweave-sigils",
+      "title": "Echoweave Sigils",
+      "url": "https://echoweave-sigils.vercel.app",
+      "monetization": "free basic tool calls with rate limits; paid pro presets unlock custom mood engines and particle skins",
+      "blurb": "Open Echoweave Sigils free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "forgequeue-mcp",
+      "title": "ForgeQueue MCP",
+      "url": "https://forgequeue-mcp.vercel.app",
+      "monetization": "free: add_to_waitlist + list_campaigns; paid: qualify_lead, enforce_paywall, and tiered countdowns",
+      "blurb": "MCP server giving agents direct tools to create/manage paid waitlists, qualify leads, and gate micro-SaaS access via pricing tiers and launch countdowns. Unique because agents…",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "makers",
+        "productivity"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "forge-signal-widget",
+      "title": "ForgeSignal Widget",
+      "url": "https://forge-signal-widget.vercel.app",
+      "monetization": "Free widget preview + basic embeds; paywall on agent loop simulation, CSV export, and custom branding",
+      "blurb": "Single static HTML configurator that outputs embeddable waitlist widgets with live agent-mission counters, tiered pricing displays, and inbox-simple email capture. Makers…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "glyph-invoice-weaver",
+      "title": "Glyph Invoice Weaver",
+      "url": "https://glyph-invoice-weaver.vercel.app",
+      "monetization": "unlimited free basic weaves; pro paid hook unlocks advanced glyph presets and aurora skins",
+      "blurb": "Open Glyph Invoice Weaver free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "glyphstream-weaver",
+      "title": "Glyphstream Weaver",
+      "url": "https://glyphstream-weaver.vercel.app",
+      "monetization": "Free skill installs with core workflows; pro unlocks rare particle presets, custom glyph skins, and extended mood engine states",
+      "blurb": "SKILL.md that teaches agents to chain MCP particle emitters into living glyph sigils, then feed results into mood engines and dice rollers for procedural name generation inside Astral Void scenes. Unique because it turns raw particle data into agent-callable glyph state machines ",
+      "status": "killed",
+      "kind": "agent_skill",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "hearth-bill",
+      "title": "Hearth Bill",
+      "url": "https://hearth-bill.vercel.app",
+      "monetization": "Free core generator with local storage; paid household share unlocks shared client presets and branded footer across devices.",
+      "blurb": "Single-page static generator that turns client details, line items and notes into a clean printable one-pager with instant totals, local presets, and PDF export. Unique for…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "hearth-bill-sprout",
+      "title": "Hearth Bill Sprout",
+      "url": "https://hearth-bill-sprout.vercel.app",
+      "monetization": "free personal skill install + pro household share for synced templates and multi-user reminders",
+      "blurb": "SKILL.md teaches agents a calm MCP workflow to generate one-page invoices and estimates from simple habit notes or lists; unique because it frames freelance billing as a low-pressure home routine rather than pure finance, using whitespace outlines and delightful empty states for ",
+      "status": "killed",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "hearthdraft-mcp",
+      "title": "HearthDraft MCP",
+      "url": "https://hearthdraft-mcp.vercel.app",
+      "monetization": "free personal tool calls with basic templates; pro household share unlocks shared family templates, recurring reminders, and multi-user access",
+      "blurb": "Open HearthDraft MCP free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "hearthmark-ledger",
+      "title": "HearthMark Ledger",
+      "url": "https://hearthmark-ledger.vercel.app",
+      "monetization": "Free personal tool calls for solo freelancers; pro household share unlocks shared templates, client lists, and recurring reminder schedules.",
+      "blurb": "Unique because it folds freelancer billing into calm home-habit flows—aut",
+      "status": "merged",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "hearthtrail-invoice",
+      "title": "HearthTrail Invoice",
+      "url": "https://hearthtrail-invoice.vercel.app",
+      "monetization": "Free personal use with local saves and basic templates; Pro unlocks household share links, preset libraries, and multi-user exports",
+      "blurb": "Turn kitchen-table notes into a warm invoice or estimate — line items, totals, print-ready sheet.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "hearthmark",
+      "title": "Hearthmark",
+      "url": "https://hearthmark.vercel.app",
+      "monetization": "Free personal use with unlimited one-pagers; pro unlocks household sharing, template library, and client portal links",
+      "blurb": "Generates warm, printable one-page invoices and estimates with built-in habit checklist and maker note sections; unique calm kitchen-note layout helps home freelancers stay organized without pressure, blending billing wi",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "indigo-pivot-canvas",
+      "title": "Indigo Pivot Canvas",
+      "url": "https://indigo-pivot-canvas.vercel.app",
+      "monetization": "Free live canvas + exposure calculator; paid unlock of 40 Great Lakes location presets with coral-indigo palettes and one-click export.",
+      "blurb": "Single static canvas tool that lets makers drag composition anchors while live SVG overlays compute blue-hour exposure windows and light-angle falloff; agents can call the…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false
+    },
+    {
+      "id": "inkline-weaver",
+      "title": "Inkline Weaver",
+      "url": "https://inkline-weaver.vercel.app",
+      "monetization": "Free basic generation and preview; pro unlocks saved templates, custom branding, and shareable static links",
+      "blurb": "Static HTML canvas where freelancers drag line items across a daylight paper simulation; live margin calculations and typographic hierarchy update instantly. Unique for makers because it treats the invoice as a single ed",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "kettlebill",
+      "title": "KettleBill",
+      "url": "https://kettlebill.vercel.app",
+      "monetization": "Free personal generator with instant exports; Pro unlocks household template sharing and saved family profiles",
+      "blurb": "Log today's work like recipe steps, brew a friendly invoice sheet with hours, rates, and totals.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "keweenaw-kit-chart",
+      "title": "Keweenaw Kit Chart",
+      "url": "https://keweenaw-kit-chart.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Trail kit checklist with segment weight estimate.",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "leadknot-timer",
+      "title": "LeadKnot Timer",
+      "url": "https://leadknot-timer.vercel.app",
+      "monetization": "Free core countdown + form generator; hard paywall on agent-callable lead sync, tiered pricing exports, and real-time updates",
+      "blurb": "Single static page that builds embeddable pricing widgets with live countdowns and email waitlist capture. Makers paste a mission brief; agents call the generated snippet to auto-increment leads and trigger outcome loops",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "ledger-snap",
+      "title": "Ledger Snap",
+      "url": "https://ledger-snap.vercel.app",
+      "monetization": "Free core generator + exports; pro unlocks batch history and template saves",
+      "blurb": "Keyboard-driven one-pager invoice/estimate builder with live monospace preview, instant JSON export, and built-in version diff.",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "liminal-light-grid",
+      "title": "Liminal Light Grid",
+      "url": "https://liminal-light-grid.vercel.app",
+      "monetization": "Free core canvas and exposure calculator; paid unlock for 40+ location presets and custom frame exports",
+      "blurb": "Live SVG canvas lets makers trace blue-hour light paths across custom frames, instantly returning exposure values and rule-of-thirds overlays. Agents can call the embedded…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "liminal-seed-lattice",
+      "title": "Liminal Seed Lattice",
+      "url": "https://liminal-seed-lattice.vercel.app",
+      "monetization": "free core lattice + mood sliders; pro unlocks extra particle skins and preset dice tables",
+      "blurb": "Live canvas particle lattice that ingests mood vectors and dice rolls to birth procedural glyphs and names; agents can call the deterministic seed+roll function for batch lore…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "lumen-crest-mcp",
+      "title": "Lumen Crest MCP",
+      "url": "https://lumen-crest-mcp.vercel.app",
+      "monetization": "free core timing and exposure tools; paid pro location presets and custom light-angle packs",
+      "blurb": "MCP server letting agents query precise golden-hour timing, exposure triangle calculations, blue-hour transitions, and location-specific composition rules for landscape…",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "lumen-veil",
+      "title": "Lumen Veil",
+      "url": "https://lumen-veil-rho.vercel.app",
+      "monetization": "Free core generator + pro preset packs for common photography metadata schemas (EXIF, Lightroom, camera profiles)",
+      "blurb": "Static HTML page: paste any JSON to instantly generate clean TypeScript interfaces with shareable links. Unique interaction renders the data shape as an SVG light-composition diagram (nodes as soft orbs, edges as ray pat",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "lumendrift-mcp",
+      "title": "LumenDrift MCP",
+      "url": "https://lumendrift-mcp.vercel.app",
+      "monetization": "free basic location/time calls; paid pro preset packs unlock hidden Northern Michigan coordinates and custom exposure curves",
+      "blurb": "Unique via live SVG light-angle previews retur",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "lumenpact-mcp",
+      "title": "LumenPact MCP",
+      "url": "https://lumenpact-mcp.vercel.app",
+      "monetization": "Free basic tool calls for simple estimates; paid unlocks pro location presets and golden-hour composition templates",
+      "blurb": "MCP server exposing tools for agents to generate photography-themed invoice/estimate one-pagers; agents call generate_estimate or apply_preset to auto-compose line items around golden-hour shoots, locations, and exposure-based pricing. Unique because it embeds visual composition ",
+      "status": "merged",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "lumenveil-atlas",
+      "title": "Lumenveil Atlas",
+      "url": "https://lumenveil-atlas.vercel.app",
+      "monetization": "free exposure and composition tools with rate-limited calls; paid unlocks pro location presets and extended windows",
+      "blurb": "Open Lumenveil Atlas free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "maplelight-mcp",
+      "title": "MapleLight MCP",
+      "url": "https://maplelight-mcp.vercel.app",
+      "monetization": "free 50 tool calls per day; paid tier unlocks unlimited calls, custom location uploads, and shareable plan exports",
+      "blurb": "Open MapleLight MCP free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "matrixforge-comparator",
+      "title": "MatrixForge Comparator",
+      "url": "https://matrixforge-comparator.vercel.app",
+      "monetization": "free basic matrix builds and scoring; paid pro exports, advanced timeline branching, and bulk comparisons",
+      "blurb": "Open MatrixForge Comparator free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "hollow_mcp",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "missionvault-queue",
+      "title": "MissionVault Queue",
+      "url": "https://missionvault-queue.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Local mission queue with toggle, reorder, and counts.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "mistline-codex",
+      "title": "Mistline Codex",
+      "url": "https://mistline-codex.vercel.app",
+      "monetization": "Free core skill file + basic tool-call examples; pro unlocks curated Michigan location presets and advanced composition overlays",
+      "blurb": "Installable SKILL.md that trains agents to orchestrate Northern Forge MCP calls for blue-hour location scouting, exposure layering, and frame composition; unique because it embeds poetic light logic as callable agent steps rather than static advice, directly tied to Michigan nigh",
+      "status": "killed",
+      "kind": "agent_skill",
+      "usefulness": "ops_only",
+      "is_demoted": false,
+      "is_useful": false
+    },
+    {
+      "id": "nf-prompt-mcp",
+      "title": "NF Prompt MCP",
+      "url": "https://nf-prompt-mcp.vercel.app",
+      "monetization": "Free core · $4.99 pro history",
+      "blurb": "Agent tools: Claude/GPT/Grok prompt variants, goal expand, share packs.",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "builders"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "nf-trail-mcp",
+      "title": "NF Trail MCP",
+      "url": "https://nf-trail-mcp.vercel.app",
+      "monetization": "Free core tools · $4.99 pro pack later",
+      "blurb": "Agent tools: golden-hour windows, pack weight sum, trail kit checklist.",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "agents",
+        "trails"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "pact-sigil-ledger",
+      "title": "Pact Sigil Ledger",
+      "url": "https://pact-sigil-ledger.vercel.app",
+      "monetization": "Free core sigil weaving and basic particle trails; pro unlocks custom glyph skins, mood-engine presets, and branded veil exports",
+      "blurb": "Open Pact Sigil Ledger free — clear steps, local-first, done in one sitting.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "pactloom-mcp",
+      "title": "PactLoom MCP",
+      "url": "https://pactloom-mcp.vercel.app",
+      "monetization": "free basic generations with core templates / pro tier for PDF exports, custom branding, and higher rate limits",
+      "blurb": "Open PactLoom MCP free — clear steps, local-first, done in one sitting.",
+      "status": "killed",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "porcupine-drift-mcp",
+      "title": "Porcupine Drift MCP",
+      "url": "https://porcupine-drift-mcp.vercel.app",
+      "monetization": "Free basic tool calls on public trails; pro pack unlocks bulk queries, exports, and private land data",
+      "blurb": "Agents call tools for hyper-local UP Michigan data: real trail conditions on named routes in Porcupine Mountains Wilderness, snow depths at specific points, Lake Superior shore…",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "pulseweave-mood-lattice",
+      "title": "Pulseweave Mood Lattice",
+      "url": "https://pulseweave-mood-lattice.vercel.app",
+      "monetization": "Free core glyph painting, particle simulation and name generation; pro unlocks custom particle skins, preset mood lattices and exportable dice tables",
+      "blurb": "Static canvas tool where makers paint or seed glyphs that drive a live particle mood engine; each glyph modulates dice outcomes for progression scores and auto-generates…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "pylon-ledger",
+      "title": "Pylon Ledger",
+      "url": "https://pylon-ledger.vercel.app",
+      "monetization": "Free single-view invoice with node limit; pro unlocks multi-board archives and unlimited connectors",
+      "blurb": "Static one-pager generator producing brutalist invoices and estimates. Line items rendered as nodes with inline SVG connectors to show deliverable dependencies and phase…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "quillforge-onesheet",
+      "title": "QuillForge OneSheet",
+      "url": "https://quillforge-onesheet.vercel.app",
+      "monetization": "Free core editor + live preview; paid unlocks branded PDF export, custom templates, and shareable links",
+      "blurb": "Live-editable one-page invoice/estimate canvas with drag-reorder line items, instant totals, embedded project rationale field, and magazine-style typography.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "ridge-json-carver",
+      "title": "Ridge JSON Carver",
+      "url": "https://ridge-json-carver.vercel.app",
+      "monetization": "Free core paste-and-generate with share links; pro unlocks offline bundle export and saved interface packs",
+      "blurb": "Paste trail JSON (weather, gear, routes) to auto-generate clean TypeScript interfaces with live SVG ridge preview and shareable links. Makers get instant typed data for apps…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "ridgetally-mcp",
+      "title": "RidgeTally MCP",
+      "url": "https://ridgetally-mcp.vercel.app",
+      "monetization": "Free core tool calls for basic estimates; pro pack unlocks bulk exports, offline bundles, and custom lake/hunting templates.",
+      "blurb": "MCP server that lets agents generate one-page invoices and estimates for Michigan trail guides, outfitters, and seasonal freelancers. Pulls real UP place names, hunting…",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "trails",
+        "makers",
+        "invoicing"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "rivet-queue-anvil",
+      "title": "Rivet Queue Anvil",
+      "url": "https://rivet-queue-anvil.vercel.app",
+      "monetization": "Free to configure, preview countdowns and simulate loops; paywall on exporting embed code and downloading lead CSV",
+      "blurb": "Single static page where makers forge embeddable waitlist widgets with live countdowns, tiered pricing teasers, and inbox-simple capture forms. Agentic loop simulator lets…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "rivet-type",
+      "title": "RivetType",
+      "url": "https://rivet-type.vercel.app",
+      "monetization": "Free forever core generation and URL sharing; pro unlocks batch paste and local history export.",
+      "blurb": "Paste JSON into a single pane to emit production-ready TypeScript interfaces with optional detection, array handling, and one-click shareable URL fragments. Makers get instant…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "slab-invoice-mesh",
+      "title": "Slab Invoice Mesh",
+      "url": "https://slab-invoice-mesh.vercel.app",
+      "monetization": "Free single invoice view with core mesh toggles; Pro unlocks multi-board save, custom branding, and bulk export.",
+      "blurb": "Single static page that renders a brutalist one-pager invoice/estimate with draggable line items, live status toggles (draft/sent/paid), and instant monospace copy-to-clipboard…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "slab-ledger",
+      "title": "Slab Ledger",
+      "url": "https://slab-ledger.vercel.app",
+      "monetization": "Free single slab view with core node assembly; pro unlocks multi-slab boards and saved templates",
+      "blurb": "Renders a single static brutalist invoice/estimate canvas where makers drag structural nodes to assemble line items, auto-calculates totals in monospace, and exports clean…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "slabforge-ledger",
+      "title": "SlabForge Ledger",
+      "url": "https://slabforge-ledger.vercel.app",
+      "monetization": "Free single-slab view with live edits and clipboard export; pro unlocks multi-slab boards, saved templates, and PDF batch output.",
+      "blurb": "Renders a single static brutalist invoice/estimate slab with monospace line items, auto-calculated totals, and copy-to-clipboard affordances; makers embed or share the…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "specterjwt-mcp",
+      "title": "SpecterJWT MCP",
+      "url": "https://specterjwt-mcp.vercel.app",
+      "monetization": "free core calls for decode/validate + pro batch history and advanced regex patterns",
+      "blurb": "Agents call tools to decode JWT, validate signatures, regex-scan claims, diff payloads, and extract base64 segments. Unique for agents because it bundles JWT + regex + diff…",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true,
+      "categories": [
+        "agents",
+        "builders",
+        "makers"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "strike-draft",
+      "title": "StrikeDraft",
+      "url": "https://strike-draft.vercel.app",
+      "monetization": "Free: unlimited drafts and preview. Hard paywall: PDF export, custom branding, saved templates.",
+      "blurb": "Static one-pager invoice/estimate builder with drag-reorder line items, live copper preview, and instant calc.",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "strutforge-keeper",
+      "title": "StrutForge Keeper",
+      "url": "https://strutforge-keeper.vercel.app",
+      "monetization": "Free single-view skill install + pro multi-board mesh views and extended checklist templates",
+      "blurb": "Installable SKILL.md that teaches agents to execute structural ops workflows: maintain mesh health dashboards, generate node/edge status boards, and run checklist audits via MCP calls. Unique for agents because it enforces longevity-first architecture patterns (brutalist clarity,",
+      "status": "killed",
+      "kind": "agent_skill",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "strutmesh-status-ledger",
+      "title": "StrutMesh Status Ledger",
+      "url": "https://strutmesh-status-ledger.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Local mission/status queue for home-lab builders.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "sunrise-offset-planner",
+      "title": "Sunrise Offset Planner",
+      "url": "https://northern-forge-labs.vercel.app/tools/sunrise-offset-planner",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Plan shoot or trail start times relative to sunrise — be early without the guesswork.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false
+    },
+    {
+      "id": "symbiont-weaver-utility",
+      "title": "Symbiont Weaver utility",
+      "url": "https://symbiont-weaver-utility-menoxcides-projects.vercel.app",
+      "monetization": "Free toy + pro skins/presets",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "synthesis-mind-utility",
+      "title": "Synthesis Mind utility",
+      "url": "https://synthesis-mind-utility-menoxcides-projects.vercel.app",
+      "monetization": "Free basic matrix + pro export/share",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "systems-oracle-utility",
+      "title": "Systems Oracle utility",
+      "url": "https://systems-oracle-utility-menoxcides-projects.vercel.app",
+      "monetization": "Free single-view + pro multi-board",
+      "blurb": "MVP utility with distinct persona design",
+      "status": "staging",
+      "kind": "mcp_server",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false,
+      "categories": [
+        "agents"
+      ],
+      "primary_category": "agents",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "typeknot",
+      "title": "TypeKnot",
+      "url": "https://typeknot.vercel.app",
+      "monetization": "Free single paste + share; pro unlocks batch JSON processing and local history store",
+      "blurb": "Paste JSON, emit strict TypeScript interface with union/array inference. URL hash encodes full state for instant shareable links.",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "up-stand-wind-rose",
+      "title": "UP Stand Wind Rose",
+      "url": "https://northern-forge-labs.vercel.app/tools/up-stand-wind-rose",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Read wind direction and speed for UP stands and paddles — when to go, when to wait.",
+      "status": "staging",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false,
+      "categories": [
+        "trails"
+      ],
+      "primary_category": "trails",
+      "is_new": false,
+      "is_hot": false
+    },
+    {
+      "id": "vellum-mesh-ledger",
+      "title": "Vellum Mesh Ledger",
+      "url": "https://vellum-mesh-ledger.vercel.app",
+      "monetization": "Free single mesh view with core drag-and-status tools; Pro unlocks multi-board switching and saved exports",
+      "blurb": "Static single-page ops dashboard where makers build task meshes via drag-to-connect nodes; auto-generates monospace status summaries with copy-to-clipboard. Agents parse…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "velvet-margin-weaver",
+      "title": "Velvet Margin Weaver",
+      "url": "https://velvet-margin-weaver.vercel.app",
+      "monetization": "Free live canvas + exposure calculator; paid unlock for 40+ pro location light presets and custom aspect templates",
+      "blurb": "Live SVG canvas lets makers drag horizon lines, rule-of-thirds anchors and light-angle arcs to preview exact golden/blue-hour exposure margins and falloff on any chosen aspect…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "verdictweave-matrix",
+      "title": "VerdictWeave Matrix",
+      "url": "https://verdictweave-matrix.vercel.app",
+      "monetization": "Free unlimited matrix building and basic exports; paid hook for pro shareable links, CSV/PDF exports, and saved templates via optional Vercel KV stub.",
+      "blurb": "Single-file interactive decision matrix for comparing agent deployment patterns or maker toolkits; users weight criteria, auto-score options, toggle glossary definitions…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "useful",
+      "is_demoted": false,
+      "is_useful": true
+    },
+    {
+      "id": "voidglyph-scribe",
+      "title": "Voidglyph Scribe",
+      "url": "https://voidglyph-scribe.vercel.app",
+      "monetization": "Free core sigil generator with live preview; pro unlocks starfield particle skins, preset rune packs, and watermark-free PDF exports",
+      "blurb": "Static HTML one-pager that lets freelancers weave invoice or estimate sigils by feeding particle glyphs, dice-rolled line items, and mood-engine tone sliders; exports a single…",
+      "status": "killed",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "voidwhisper-sigil-loom",
+      "title": "Voidwhisper Sigil Loom",
+      "url": "https://voidwhisper-sigil-loom.vercel.app",
+      "monetization": "Free core + $3.99 pro",
+      "blurb": "Sigil loom from words and dice for TTRPG nights.",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "fantasy",
+      "is_demoted": true,
+      "is_useful": false
+    },
+    {
+      "id": "willowbind-option-grid",
+      "title": "Willowbind Option Grid",
+      "url": "https://willowbind-option-grid.vercel.app",
+      "monetization": "Free core matrix builder and live preview; pro unlocks one-click shareable static HTML export and saved template library via copy-paste code snippet.",
+      "blurb": "Static single-file HTML tool letting makers build decision matrices with inline glossary definitions, soft-focus note fields, and weighted scoring columns. Unique agent value…",
+      "status": "merged",
+      "kind": "web_tool",
+      "usefulness": "unknown",
+      "is_demoted": false,
+      "is_useful": false
+    }
+  ]
+}
