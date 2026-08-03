@@ -28,3 +28,17 @@ persona + visual → design_product → diamond_qol.patch_html (+ glass)
 ## Related
 
 `INFRA_LADDER.md` · `CREATION_MANIFESTO.md` · `AGENTS.md`
+
+## Daily product cycle
+
+Scheduled Grok task **adp-daily-product-cycle** must run on **this host**.
+
+```bash
+export ADP_ROOT=/root/autonomous-digital-products
+bash "$ADP_ROOT/scripts/adp_daily_cycle.sh"
+# or:
+cd /root/autonomous-digital-products && python3 run_full_cycle.py
+```
+
+If a cloud sandbox reports `dir missing`, that runner is not the control plane —
+re-run on the always_on host (this tree), do not recreate the repo elsewhere.
