@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T14:32:04.611Z",
+  "updated_at": "2026-08-05T04:37:15.638Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -317,6 +317,13 @@
       "keys": [
         "7f85a7d3",
         "b51cc86"
+      ]
+    },
+    "mote-sigil-dice": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "7048af1b"
       ]
     }
   }
