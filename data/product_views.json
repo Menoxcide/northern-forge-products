@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T06:49:23.214Z",
+  "updated_at": "2026-08-05T10:28:23.496Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -370,6 +370,13 @@
       "total": 1,
       "keys": [
         "79e29da6"
+      ]
+    },
+    "tahquamenon-pack-scout": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "7048af1b"
       ]
     }
   }
