@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T04:38:03.505Z",
+  "updated_at": "2026-08-05T04:39:34.031Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -335,6 +335,13 @@
       ]
     },
     "regex-capture-namer": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "7048af1b"
+      ]
+    },
+    "model-prompt-router": {
       "unique": 1,
       "total": 1,
       "keys": [
