@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T20:31:49.923Z",
+  "updated_at": "2026-08-06T20:31:50.684Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -204,7 +204,7 @@
       ]
     },
     "hub": {
-      "unique": 8,
+      "unique": 9,
       "total": 7,
       "keys": [
         "e6dde760",
@@ -214,12 +214,13 @@
         "9142aad7",
         "880ca4cd",
         "9750184e",
-        "7c79af81"
+        "7c79af81",
+        "5e76e38e"
       ]
     },
     "northern-forge-hub": {
-      "unique": 16,
-      "total": 19,
+      "unique": 19,
+      "total": 22,
       "keys": [
         "30eb748c",
         "a5ffe1ae",
@@ -236,7 +237,10 @@
         "fa74a4fa",
         "45652b03",
         "880ca4cd",
-        "b7c3077f"
+        "b7c3077f",
+        "7c79af81",
+        "5e76e38e",
+        "ce4922ff"
       ]
     },
     "northern-forge-mcp": {
