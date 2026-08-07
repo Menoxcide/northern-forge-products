@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T20:28:12.656Z",
+  "updated_at": "2026-08-07T20:49:29.333Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -250,13 +250,14 @@
       ]
     },
     "northern-forge-mcp": {
-      "unique": 4,
-      "total": 4,
+      "unique": 5,
+      "total": 5,
       "keys": [
         "339b965d",
         "f3601719",
         "f0c2c792",
-        "98ea5a2"
+        "98ea5a2",
+        "9b97678c"
       ]
     },
     "agents-docs": {
