@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T20:28:11.859Z",
+  "updated_at": "2026-08-07T20:28:12.656Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -392,12 +392,13 @@
       ]
     },
     "dusk-veil-composer": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "4b0de629",
         "dc5b7ba0",
-        "2983cde2"
+        "2983cde2",
+        "286e8567"
       ]
     },
     "mi-golden-hour": {
