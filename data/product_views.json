@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T20:09:53.558Z",
+  "updated_at": "2026-08-07T20:09:54.378Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -176,7 +176,7 @@
       ]
     },
     "mapleway-roster": {
-      "unique": 7,
+      "unique": 8,
       "total": 7,
       "keys": [
         "27d1f360",
@@ -185,7 +185,8 @@
         "9b97678c",
         "759894f2",
         "72e8373e",
-        "58b4454c"
+        "58b4454c",
+        "86d48bd1"
       ]
     },
     "indigo-pivot-canvas": {
