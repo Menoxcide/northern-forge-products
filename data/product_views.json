@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T20:49:29.333Z",
+  "updated_at": "2026-08-07T20:52:52.124Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -403,12 +403,13 @@
       ]
     },
     "mi-golden-hour": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "8ce420a2",
         "f431a559",
-        "743229e5"
+        "743229e5",
+        "f47ce6ee"
       ]
     }
   }
