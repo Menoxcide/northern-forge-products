@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:59:09.471Z",
+  "updated_at": "2026-08-08T07:59:10.548Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -785,7 +785,7 @@
     },
     "willowbind-option-grid": {
       "unique": 1,
-      "total": 1,
+      "total": 2,
       "keys": [
         "5d8568ac"
       ]
@@ -799,13 +799,20 @@
     },
     "webhook-hmac-verification-desk": {
       "unique": 2,
-      "total": 1,
+      "total": 2,
       "keys": [
         "90ed492d",
         "5d8568ac"
       ]
     },
     "claimweave": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "hearth-type-weaver": {
       "unique": 1,
       "total": 1,
       "keys": [
