@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T02:24:22.824Z",
+  "updated_at": "2026-08-08T04:22:30.196Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -418,6 +418,13 @@
         "f47ce6ee",
         "2273cd4a",
         "bf6348c8"
+      ]
+    },
+    "voidweave-dice-oracle": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "533323a6"
       ]
     }
   }
