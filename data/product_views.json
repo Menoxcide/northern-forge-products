@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:37:01.285Z",
+  "updated_at": "2026-08-08T06:37:03.343Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -668,6 +668,27 @@
       ]
     },
     "nf-trail-mcp": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "forge-signal-widget": {
+      "unique": 1,
+      "total": 3,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "typeknot": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "dev-tool-paste-json-typescript-interface-generat": {
       "unique": 1,
       "total": 1,
       "keys": [
