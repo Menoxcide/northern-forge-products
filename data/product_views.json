@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:14:19.649Z",
+  "updated_at": "2026-08-08T05:14:32.133Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -440,6 +440,13 @@
       "total": 1,
       "keys": [
         "84e44f33"
+      ]
+    },
+    "astral-quote-lattice": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "c899ebcc"
       ]
     }
   }
