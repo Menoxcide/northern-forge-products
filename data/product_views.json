@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T04:22:30.196Z",
+  "updated_at": "2026-08-08T04:46:32.554Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -409,15 +409,16 @@
       ]
     },
     "mi-golden-hour": {
-      "unique": 6,
-      "total": 6,
+      "unique": 7,
+      "total": 7,
       "keys": [
         "8ce420a2",
         "f431a559",
         "743229e5",
         "f47ce6ee",
         "2273cd4a",
-        "bf6348c8"
+        "bf6348c8",
+        "bb75da8f"
       ]
     },
     "voidweave-dice-oracle": {
