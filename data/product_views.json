@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:51.332Z",
+  "updated_at": "2026-08-08T06:36:52.429Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -649,6 +649,13 @@
       "total": 1,
       "keys": [
         "246bf7ef"
+      ]
+    },
+    "voidglyph-scribe": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
