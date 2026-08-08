@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T04:46:33.139Z",
+  "updated_at": "2026-08-08T05:12:30.148Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -426,6 +426,13 @@
       "total": 1,
       "keys": [
         "533323a6"
+      ]
+    },
+    "mailforge": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "ade9a30e"
       ]
     }
   }
