@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:22.920Z",
+  "updated_at": "2026-08-08T05:25:23.944Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -84,12 +84,13 @@
       ]
     },
     "liminal-seed-lattice": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "b51cc86",
         "7925a079",
-        "2b57ead5"
+        "2b57ead5",
+        "5d8568ac"
       ]
     },
     "veilweave-terminal": {
@@ -391,12 +392,13 @@
       ]
     },
     "tahquamenon-pack-scout": {
-      "unique": 3,
+      "unique": 4,
       "total": 2,
       "keys": [
         "7048af1b",
         "34b5b3a7",
-        "5d8568ac"
+        "5d8568ac",
+        "d2256efb"
       ]
     },
     "dusk-veil-composer": {
