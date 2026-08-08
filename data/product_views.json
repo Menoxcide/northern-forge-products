@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:50:47.444Z",
+  "updated_at": "2026-08-08T06:15:55.981Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -534,6 +534,13 @@
       ]
     },
     "verdictweave-matrix": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "trail-crew-time-zone-overlap": {
       "unique": 1,
       "total": 1,
       "keys": [
