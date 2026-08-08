@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:30.693Z",
+  "updated_at": "2026-08-08T05:25:31.902Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -23,7 +23,7 @@
     },
     "ridgeway-reckoner": {
       "unique": 5,
-      "total": 5,
+      "total": 7,
       "keys": [
         "7925a079",
         "b51cc86",
@@ -51,7 +51,7 @@
     },
     "specterjwt-mcp": {
       "unique": 6,
-      "total": 6,
+      "total": 7,
       "keys": [
         "b51cc86",
         "79724c8b",
@@ -502,6 +502,13 @@
       ]
     },
     "rivet-type": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "pylon-ledger": {
       "unique": 1,
       "total": 1,
       "keys": [
