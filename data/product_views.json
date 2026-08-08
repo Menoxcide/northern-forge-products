@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:01:27.733Z",
+  "updated_at": "2026-08-08T08:01:29.258Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -14,7 +14,7 @@
     },
     "quillforge-onesheet": {
       "unique": 4,
-      "total": 4,
+      "total": 5,
       "keys": [
         "7f85a7d3",
         "da21cc90",
