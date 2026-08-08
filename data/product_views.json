@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:01:37.985Z",
+  "updated_at": "2026-08-08T08:28:49.498Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -842,6 +842,13 @@
       ]
     },
     "ridgetally-mcp": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "url-query-editor-v2": {
       "unique": 1,
       "total": 1,
       "keys": [
