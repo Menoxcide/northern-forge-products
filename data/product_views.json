@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:37:53.644Z",
+  "updated_at": "2026-08-08T06:38:06.219Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -715,6 +715,13 @@
       ]
     },
     "anvil-draft": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "csv-column-picker-v2": {
       "unique": 1,
       "total": 1,
       "keys": [
