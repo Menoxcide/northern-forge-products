@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:41:04.427Z",
+  "updated_at": "2026-08-08T08:41:07.403Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -97,10 +97,11 @@
       ]
     },
     "veilweave-terminal": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7925a079"
+        "7925a079",
+        "5d8568ac"
       ]
     },
     "slabforge-ledger": {
