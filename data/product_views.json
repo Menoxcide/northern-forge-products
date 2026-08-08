@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:54:17.802Z",
+  "updated_at": "2026-08-08T07:54:19.306Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -750,6 +750,13 @@
       "total": 3,
       "keys": [
         "8c8ca798"
+      ]
+    },
+    "hearthmark": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
