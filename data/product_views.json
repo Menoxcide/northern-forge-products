@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:57.822Z",
+  "updated_at": "2026-08-08T06:37:01.285Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -665,6 +665,13 @@
       "total": 2,
       "keys": [
         "f966163c"
+      ]
+    },
+    "nf-trail-mcp": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
