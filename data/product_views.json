@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:52.429Z",
+  "updated_at": "2026-08-08T06:36:53.687Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -639,7 +639,7 @@
     },
     "pomodoro-focus-timer-with-session-count": {
       "unique": 1,
-      "total": 1,
+      "total": 2,
       "keys": [
         "aee44cfa"
       ]
@@ -656,6 +656,13 @@
       "total": 1,
       "keys": [
         "5d8568ac"
+      ]
+    },
+    "mi-trailhead-snow-depth-visualizer": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "f966163c"
       ]
     }
   }
