@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:20.113Z",
+  "updated_at": "2026-08-08T05:25:21.022Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -100,13 +100,14 @@
       ]
     },
     "slabforge-ledger": {
-      "unique": 4,
-      "total": 4,
+      "unique": 5,
+      "total": 7,
       "keys": [
         "da21cc90",
         "7f85a7d3",
         "b51cc86",
-        "7925a079"
+        "7925a079",
+        "5d8568ac"
       ]
     },
     "rivetmesh-health-grid": {
@@ -389,11 +390,12 @@
       ]
     },
     "tahquamenon-pack-scout": {
-      "unique": 2,
-      "total": 1,
+      "unique": 3,
+      "total": 2,
       "keys": [
         "7048af1b",
-        "34b5b3a7"
+        "34b5b3a7",
+        "5d8568ac"
       ]
     },
     "dusk-veil-composer": {
