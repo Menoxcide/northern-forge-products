@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:16.010Z",
+  "updated_at": "2026-08-08T05:25:19.230Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -450,10 +450,11 @@
       ]
     },
     "lens-maker-utility": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "c80219cf"
+        "c80219cf",
+        "5d8568ac"
       ]
     },
     "forgebill-skill": {
@@ -461,6 +462,13 @@
       "total": 1,
       "keys": [
         "cf37b305"
+      ]
+    },
+    "rimeglyph-pulse-engine": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
