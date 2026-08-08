@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:37:04.307Z",
+  "updated_at": "2026-08-08T06:37:07.433Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -340,11 +340,12 @@
       ]
     },
     "voidmote-oracle": {
-      "unique": 2,
-      "total": 2,
+      "unique": 3,
+      "total": 3,
       "keys": [
         "7f85a7d3",
-        "b51cc86"
+        "b51cc86",
+        "5d8568ac"
       ]
     },
     "mote-sigil-dice": {
@@ -699,6 +700,13 @@
       ]
     },
     "strike-draft": {
+      "unique": 1,
+      "total": 2,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "inkline-weaver": {
       "unique": 1,
       "total": 1,
       "keys": [
