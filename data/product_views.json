@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:54:04.717Z",
+  "updated_at": "2026-08-08T07:54:17.135Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -185,8 +185,8 @@
       ]
     },
     "mapleway-roster": {
-      "unique": 11,
-      "total": 10,
+      "unique": 12,
+      "total": 11,
       "keys": [
         "27d1f360",
         "83b2ff30",
@@ -198,7 +198,8 @@
         "86d48bd1",
         "3ab56245",
         "fe85a5ef",
-        "264a8395"
+        "264a8395",
+        "a97b532e"
       ]
     },
     "indigo-pivot-canvas": {
@@ -746,7 +747,7 @@
     },
     "porcupine-bluff-kit-ledger": {
       "unique": 1,
-      "total": 1,
+      "total": 3,
       "keys": [
         "8c8ca798"
       ]
