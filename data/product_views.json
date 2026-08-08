@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:58:59.457Z",
+  "updated_at": "2026-08-08T07:59:03.585Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -773,6 +773,13 @@
       "total": 1,
       "keys": [
         "5d8568ac"
+      ]
+    },
+    "northwoods-light-scouting-docket": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "6ac455cd"
       ]
     }
   }
