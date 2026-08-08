@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:54:35.326Z",
+  "updated_at": "2026-08-08T07:58:59.457Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -762,6 +762,13 @@
       ]
     },
     "slab-ledger": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "hearthtrail-invoice": {
       "unique": 1,
       "total": 1,
       "keys": [
