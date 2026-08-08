@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:59:13.272Z",
+  "updated_at": "2026-08-08T08:01:26.765Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -824,6 +824,13 @@
       "total": 1,
       "keys": [
         "cc55b4cb"
+      ]
+    },
+    "shift-tipout-pool-splitter": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "d318acd4"
       ]
     }
   }
