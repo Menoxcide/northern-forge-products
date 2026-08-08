@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:38:06.219Z",
+  "updated_at": "2026-08-08T06:38:10.900Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -334,10 +334,11 @@
       ]
     },
     "dialectic-fork-matrix": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "e551ff36"
+        "e551ff36",
+        "3fa50e6"
       ]
     },
     "voidmote-oracle": {
@@ -722,10 +723,11 @@
       ]
     },
     "csv-column-picker-v2": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "5d8568ac"
+        "5d8568ac",
+        "ff531758"
       ]
     }
   }
