@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:01:26.765Z",
+  "updated_at": "2026-08-08T08:01:27.733Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -13,12 +13,13 @@
       ]
     },
     "quillforge-onesheet": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "7f85a7d3",
         "da21cc90",
-        "7925a079"
+        "7925a079",
+        "5d8568ac"
       ]
     },
     "ridgeway-reckoner": {
@@ -831,6 +832,13 @@
       "total": 1,
       "keys": [
         "d318acd4"
+      ]
+    },
+    "local-tax-tip-card": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
