@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:38:10.900Z",
+  "updated_at": "2026-08-08T06:38:15.637Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -728,6 +728,13 @@
       "keys": [
         "5d8568ac",
         "ff531758"
+      ]
+    },
+    "velvet-margin-weaver": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
