@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:31.312Z",
+  "updated_at": "2026-08-08T06:36:36.531Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -604,6 +604,20 @@
       "total": 1,
       "keys": [
         "9e47495e"
+      ]
+    },
+    "lumen-crest-mcp": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "synthesis-mind-utility": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
       ]
     }
   }
