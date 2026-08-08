@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:01:29.258Z",
+  "updated_at": "2026-08-08T08:01:37.985Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -835,6 +835,13 @@
       ]
     },
     "local-tax-tip-card": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "ridgetally-mcp": {
       "unique": 1,
       "total": 1,
       "keys": [
