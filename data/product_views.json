@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:26:00.663Z",
+  "updated_at": "2026-08-08T05:29:21.060Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -128,13 +128,14 @@
       ]
     },
     "slab-invoice-mesh": {
-      "unique": 4,
-      "total": 4,
+      "unique": 5,
+      "total": 5,
       "keys": [
         "7f85a7d3",
         "da21cc90",
         "7925a079",
-        "27d1f360"
+        "27d1f360",
+        "5d8568ac"
       ]
     },
     "ledger-snap": {
