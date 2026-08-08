@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:44.369Z",
+  "updated_at": "2026-08-08T06:36:50.497Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -634,6 +634,13 @@
       "total": 1,
       "keys": [
         "a34fcf00"
+      ]
+    },
+    "pomodoro-focus-timer-with-session-count": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "aee44cfa"
       ]
     }
   }
