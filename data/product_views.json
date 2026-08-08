@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:37:03.343Z",
+  "updated_at": "2026-08-08T06:37:04.307Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -164,7 +164,7 @@
     },
     "harbor-ledger": {
       "unique": 7,
-      "total": 8,
+      "total": 9,
       "keys": [
         "7925a079",
         "79724c8b",
@@ -633,24 +633,27 @@
       ]
     },
     "change-order-calculator": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "a34fcf00"
+        "a34fcf00",
+        "5d8568ac"
       ]
     },
     "pomodoro-focus-timer-with-session-count": {
-      "unique": 1,
+      "unique": 2,
       "total": 2,
       "keys": [
-        "aee44cfa"
+        "aee44cfa",
+        "5d8568ac"
       ]
     },
     "timezone-overlap-grid-v2": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "246bf7ef"
+        "246bf7ef",
+        "5d8568ac"
       ]
     },
     "voidglyph-scribe": {
@@ -689,6 +692,13 @@
       ]
     },
     "dev-tool-paste-json-typescript-interface-generat": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "strike-draft": {
       "unique": 1,
       "total": 1,
       "keys": [
