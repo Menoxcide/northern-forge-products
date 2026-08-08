@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:43:10.655Z",
+  "updated_at": "2026-08-08T08:43:11.537Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -34,10 +34,11 @@
       ]
     },
     "lumen-veil": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "b51cc86"
+        "b51cc86",
+        "5d8568ac"
       ]
     },
     "aurora-loom-skill": {
@@ -420,7 +421,7 @@
     },
     "dusk-veil-composer": {
       "unique": 8,
-      "total": 11,
+      "total": 12,
       "keys": [
         "4b0de629",
         "dc5b7ba0",
