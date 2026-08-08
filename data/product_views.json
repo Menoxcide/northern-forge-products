@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:54:19.306Z",
+  "updated_at": "2026-08-08T07:54:26.467Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -186,7 +186,7 @@
     },
     "mapleway-roster": {
       "unique": 12,
-      "total": 11,
+      "total": 12,
       "keys": [
         "27d1f360",
         "83b2ff30",
@@ -215,12 +215,13 @@
       ]
     },
     "forgequeue-mcp": {
-      "unique": 3,
-      "total": 3,
+      "unique": 4,
+      "total": 4,
       "keys": [
         "79724c8b",
         "d0132692",
-        "7ad4a025"
+        "7ad4a025",
+        "5d8568ac"
       ]
     },
     "hub": {
