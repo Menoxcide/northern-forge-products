@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:36:37.523Z",
+  "updated_at": "2026-08-08T06:36:44.369Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -593,17 +593,19 @@
       ]
     },
     "meshrelay-topology-blueprint": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "3811c61b"
+        "3811c61b",
+        "5d8568ac"
       ]
     },
     "webhook-hmac-desk-v2": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "9e47495e"
+        "9e47495e",
+        "5d8568ac"
       ]
     },
     "lumen-crest-mcp": {
@@ -625,6 +627,13 @@
       "total": 1,
       "keys": [
         "8c89ce5e"
+      ]
+    },
+    "change-order-calculator": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "a34fcf00"
       ]
     }
   }
