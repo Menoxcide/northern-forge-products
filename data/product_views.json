@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:13.033Z",
+  "updated_at": "2026-08-08T05:25:16.010Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -454,6 +454,13 @@
       "total": 1,
       "keys": [
         "c80219cf"
+      ]
+    },
+    "forgebill-skill": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "cf37b305"
       ]
     }
   }
