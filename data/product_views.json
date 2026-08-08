@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:25.452Z",
+  "updated_at": "2026-08-08T05:25:27.549Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -481,6 +481,13 @@
       ]
     },
     "ridge-json-carver": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "pact-sigil-ledger": {
       "unique": 1,
       "total": 1,
       "keys": [
