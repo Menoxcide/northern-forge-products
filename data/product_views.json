@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T08:43:11.537Z",
+  "updated_at": "2026-08-08T08:43:17.272Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -875,6 +875,13 @@
       ]
     },
     "symbiont-weaver-utility": {
+      "unique": 1,
+      "total": 1,
+      "keys": [
+        "5d8568ac"
+      ]
+    },
+    "systems-oracle-utility": {
       "unique": 1,
       "total": 1,
       "keys": [
