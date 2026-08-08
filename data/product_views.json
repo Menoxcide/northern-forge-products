@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:25:19.230Z",
+  "updated_at": "2026-08-08T05:25:20.113Z",
   "metric": "unique_views",
   "products": {
     "prompt-context-forge": {
@@ -337,10 +337,11 @@
       ]
     },
     "mote-sigil-dice": {
-      "unique": 1,
-      "total": 1,
+      "unique": 2,
+      "total": 2,
       "keys": [
-        "7048af1b"
+        "7048af1b",
+        "5d8568ac"
       ]
     },
     "mcp-resource-uri-linter": {
@@ -451,24 +452,26 @@
     },
     "lens-maker-utility": {
       "unique": 2,
-      "total": 1,
+      "total": 2,
       "keys": [
         "c80219cf",
         "5d8568ac"
       ]
     },
     "forgebill-skill": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "cf37b305"
+        "cf37b305",
+        "5d8568ac"
       ]
     },
     "rimeglyph-pulse-engine": {
-      "unique": 1,
+      "unique": 2,
       "total": 1,
       "keys": [
-        "5d8568ac"
+        "5d8568ac",
+        "c249eb88"
       ]
     }
   }
